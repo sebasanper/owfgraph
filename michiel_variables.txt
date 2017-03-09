@@ -1,0 +1,354 @@
+cross-sectional area of conductor
+area occupied by wind farm
+area of incidence of partial wake or multiple wake overlap
+amplification of wave water particle velocity
+amplitude of seabed orbital motion
+exponent of storm fraction function
+exponent of storm length function
+capacitance of electrical cable per unit length
+actualised total bottom lease costs
+capital costs excluding management costs
+decommissioning costs excluding management costs
+costs of foundation installation
+actualised total infield cable costs
+costs of operation and maintenance excluding management costs
+costs of offshore works of rotor-nacelle assembly installation
+costs of consumables per maintenance visit
+costs of rotor-nacelle assembly
+costs of new rotor-nacelle assembly design
+costs of reference rotor-nacelle assembly design V80
+costs of consumables per repair of failure type j
+actualised costs without bottom lease and infield cable costs
+costs for year t
+costs for year t for wind farm i
+costs of access vessel rental
+Weibull scale factor
+drag coefficient
+inertia coefficient
+thrust coefficient
+Weibull scale factor for storm length
+Weibull scale factor for storm length for reference access method
+diameter
+dimensionless grain size
+diameter of the armour
+diameter at the base
+diameter of the binder
+diameter of the conductor
+diameter of the conductor screen
+diameter of the insulation
+diameter of the insulation screen
+diameter of outer serving
+outer diameter of monopile
+rotor diameter
+rotor diameter of new rotor-nacelle assembly design
+rotor diameter of reference rotor-nacelle assembly design V80
+diameter at the top
+outer diameter of tower
+distance between centres of wake and rotor or of two wakes
+15 percentile sieve size of rock
+15 percentile sieve size of rock in armour layer
+15 percentile sieve size of rock or soil below filter layer
+15 percentile sieve size of rock in filter layer
+50 percentile sieve size of soil or rock
+50 percentile sieve size of rock or soil below filter layer
+50 percentile sieve size of rock in filter layer
+85 percentile sieve size of rock
+85 percentile sieve size of rock or soil below filter layer
+85 percentile sieve size of rock in filter layer
+85 percentile sieve size of rock in filter layer i
+90 percentile sieve size of soil
+burial depth
+pile clamping depth below mudline
+eccentricity of centre of gravity
+distance from harbour to boundary of wind farm
+50% passing nominal diameter
+water depth
+electricity production
+design modulus of elasticity
+annual loss in electrical infrastructure
+actualised total energy yield without electrical and array losses
+annual electricity production
+electricity production in year t
+electricity production in year t for wind farm i
+electricity production in year t ' for wind farm j
+equivalent geometrical imperfection
+drag force
+amplitude of drag force
+gravity force
+amplitude of inertia force
+lateral force on pile at mudline
+force in z direction
+frequency of alternating current
+storm fraction
+storm fraction for reference access method
+wave friction factor
+warranty percentage of rotor-nacelle assembly costs
+rough bed friction factor
+smooth bed friction factor
+design yield stress
+probability density function
+probability density function in wind direction φ
+fraction of costs that remain the same during scaling of mass
+factor on wage for shift length
+factor on wage for number of shifts per day
+gravity constant
+total height of structure
+wave height
+braking wave height
+significant wave height
+significant wave height for accessibility with reference access method
+height
+hub height
+hazard rate for failure of type j
+reference height
+moment of inertia
+active current
+rated current per phase
+reactive current
+reactive current in shunt reactor
+total current
+screening factor
+active pressure coefficient
+passive pressure coefficient
+Keulegan-Carpenter number
+core radius of a tube
+wake expansion factor
+wave number
+Weibull shape factor
+Weibull shape factor for storm length
+Nikuradse equivalent sand grain roughness
+inductance
+transportation distance onshore
+length of the transmission cable
+total length of infield cables
+length of element from base to top
+length of overlap between monopile and transition piece
+levelised production costs
+levelised production costs of wind farm i
+flapping moment
+moment due to drag force
+amplitude of moment due to drag force
+amplitude of moment due to inertia force
+bending moment on pile at mudline
+moment in direction perpendicular to the direction
+mean time between failures
+mean time between failures for failure of type j
+mass of copper in cable
+mass of grout
+mass of insulation material in cable
+mass of jacket of transform platform
+mass of nacelle
+mass of monopile
+mass of rotor-nacelle assembly
+mass of rotor
+mass of tower
+mass of transition piece
+number of sub-batches of repair batch i
+number of turbines in column
+number of crews per shift
+number of switchgear cubicles at infield side of platform
+number of switchgear cubicles at grid connection point
+number of switchgear cubicles at transmission side of platform
+number of switchgear cubicles in turbines
+Euler force for cantilever beam according to theory of elasticity
+number of failures of type j during repair batch i
+number of failures of type j , after storm
+number of failures of type j during storm and catch-up period
+number of failures of type j during steady state
+number of failures of type j
+number of failures that require lifting equipment
+number of mobilisations of lifting equipment per year
+number of mobilisations of lifting equipment for n repairs
+number of people per crew
+number of passengers per vessel
+number of preventive maintenance actions
+number of turbines in row
+number of shifts per day
+number of storms during lifetime of wind farm
+number of turbines in farm
+number of turbines in branch upstream of the position in the cable
+number of turbines with failures of type j at start of repair batch i
+number of operational turbines during the steady state
+number of vessels
+number of wakes
+number of individuals
+number of lines
+power
+power rating of wind farm
+power rating of turbine i
+loaded power loss in electrical infrastructure at rated power
+no-loaded power loss in electrical infrastructure
+power loss in shunt reactor
+loaded power loss in transformer at rated power
+no-loaded power loss in transformerP shunt
+power rating of shunt reactor
+power rating of offshore shunt reactor
+power rating of onshore shunt reactor
+power rating of transformer
+power of turbine
+power rating of turbine
+probability of being down and on the waiting list during steady state
+probability of mobilising hoisting equipment for n repairs
+radius of wake or rotor
+resistance per unit length
+resistance per unit length at 20°
+resistance per unit length excluding sheath and armour loss
+revenues for year t (outside sales of electricity)
+revenues for year t (outside sales of electricity) for wind farm i
+wave Reynolds number
+real interest rate
+radius of wake
+winding ratio of offshore transformer
+winding ratio of onshore transformer
+relative roughness
+winding ratio of turbine transformer
+spacing between turbines in column
+spacing between turbines in row
+wave period
+duration of period covering the lifetime of multiple wind farms
+thermal resistance between conductor and sheath
+thermal resistance between sheath and armour
+thermal resistance of outer serving
+thermal resistance of soil
+duration of repair batch i
+time of catch-up period
+downtime of turbines that fail during batch i
+downtime due to waiting for lifting equipment
+downtime due to waiting for lifting equipment to do n repairs
+downtime during preventive maintenance
+downtime due to preparation for type j in storm and catch-up period
+downtime during preparations for failures of type j in steady state
+downtime of failures of type j that happen during a storm
+downtime due to failures of type j during storm and catch-up period
+total downtime
+total downtime assigned to failures of type j
+downtime of previously failed turbines during batch i
+downtime due to waiting list in steady state
+downtime during work in progress for failures of type j in steady state
+time in a day
+time to perform diagnosis of failure of type j
+time to perform repair activity for failure of type j
+(economic) lifetime of wind farm
+(economic) lifetime of wind farm i
+total time that lifting equipment is in the wind farm per year
+time needed for mobilising lifting equipment
+waiting time before ordering lifting equipment
+thrust of new rotor-nacelle assembly design
+time to process diagnosis information of failure of type j
+working hours per preventive maintenance action
+work in progress time of all preventive maintenance actions
+downtime during preparations for failures of type j
+thrust of reference rotor-nacelle assembly design V80
+shift duration
+average interval in which service is required per turbine
+time for ordering of spare parts of failure of type j
+total steady state time
+storm length
+travel time in wind farm
+travel time to and from wind farm
+total time of access vessel rental per year
+time of work in progress for repair of failure of type j
+average work in progress time for lifting activities
+work in progress time per preventive maintenance action
+time
+wall thickness
+year into the lifetime of wind farm
+year in period covering the lifetime of multiple wind farms
+year of start of the lifetime of wind farm
+armour thickness
+bedding thickness
+time at beginning of catch up of repairs in storm cycle s
+time at beginning of storm in storm cycle s
+binder thickness
+conductor screen thickness
+downtime turbine i , failure type j , storm cycle s and failure k
+time at end of catch up of repairs in storm cycle s
+time at end of storm in storm cycle s
+time of failure number k of turbine i with failure type j
+insulation screen thickness
+target value for discipline j
+outer serving thickness
+wall thickness of monopile
+polyethylene sheath thickness
+time of repair of failure number k of turbine i with failure type j
+thickness of other cable layers
+sheath thickness
+depth averaged current velocity
+amplitude of seabed orbital velocity
+wind speed
+undisturbed wind speed
+wind speed at height h
+wind speed in wake of turbine i
+line voltage
+grid line voltage
+infield line voltage
+transmission line voltage
+wind speed in mixed wake
+wind speed for new rotor-nacelle assembly design
+wind speed for power curve of rotor-nacelle assembly design V80
+wind speed at reference height
+volume of scour protection
+speed of vessel
+annual average wind speed
+dielectric cable loss per unit length
+resistive cable loss per unit length
+total cable loss per unit length
+distance downwind from the rotor
+position in cable
+vertical coordinate – positive upwards
+hydraulic roughness length
+z - coordinate at the base of an element
+z - coordinate of low end of integration of force or moment
+z - coordinate of high end of integration of force or moment
+z - coordinate of reference point for moment
+wind shear exponent
+temperature coefficient
+phase angle between charging and capacitive current
+reduction factor
+dielectric constant in vacuum
+reduction factor for stress due to axial force
+reduction factor for stress due to bending moment
+fluctuation of efficiency of type j and turbine i
+relative dielectric constant of insulation material
+angle between waves and current
+wind direction
+submerged unit weight
+time independent efficiency of type j
+time dependent efficiency of type j and turbine i
+array efficiency of turbine i
+average availability fraction of all turbine in wind farm
+availability of turbine i
+efficiency of crew deployment
+efficiency of electrical network
+efficiency of shunt reactor
+sheath loss factor
+armour loss factor
+relative slenderness ratio for buckling
+relative slenderness ratio for global stability
+relative depth of cable burial
+Poisson’s ratio
+kinematic viscosity of water
+temperature
+ambient temperature
+critical Shields parameter
+maximum temperature in insulation
+density
+resistivity at 20°
+thermal resistivity of bedding
+thermal resistivity of insulation
+thermal resistivity of outer serving
+density of soil
+thermal resistivity of sheath
+thermal resistivity of soil
+density of water
+amplitude of water elevation
+normal stress due to axial force
+normal stress due to bending moment
+critical compressive stress
+critical compressive stress according to theory of elasticity
+total normal stress
+shear stress due to current
+mean shear stress due to current and waves
+maximum shear stress due to current and waves
+shear stress due to waves
+wave frequency

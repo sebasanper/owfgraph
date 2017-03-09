@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<graph id="G" edgedefault="directed">
+<key id="unit" for="node" attr.name="unit" attr.type="string"/>
+<key id="author" for="node" attr.name="author" attr.type="string"/>
+<key id="desciption" for="node" attr.name="desciption" attr.type="string"/>
+<key id="description" for="node" attr.name="description" attr.type="string"/>
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="value" for="node" attr.name="value" attr.type="string"/>
+<key id="domain" for="node" attr.name="domain" attr.type="string"/>
+<key id="domaint" for="node" attr.name="domaint" attr.type="string"/>
+<key id="reference" for="node" attr.name="reference" attr.type="string"/>
+<key id="note" for="node" attr.name="note" attr.type="string"/>
+<node id="n0" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">monopile</data><data key="description">A generic monopile.</data></node>
+<node id="n1" labels=":Object"><data key="labels">:Object</data><data key="name">geared drive train</data><data key="author">equaeghebeur</data><data key="description">A generic geared drive train</data></node>
+<node id="n2" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">substructure</data><data key="description">A generic substructure.</data></node>
+<node id="n3" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">gravity base</data><data key="description">A generic gravity base.</data></node>
+<node id="n4" labels=":Variable"><data key="labels">:Variable</data><data key="name">wind turbine position</data><data key="description">The spatial position of a turbine, expressed as a longitude and latitude or in another coordinate system.</data><data key="author">equaeghebeur</data></node>
+<node id="n5" labels=":Variable"><data key="labels">:Variable</data><data key="name">wind speed at hub height</data><data key="author">equaeghebeur</data><data key="unit">m/s</data><data key="domain">real</data><data key="description">This expressed the speed of the wind at hub height of a given turbine.</data></node>
+<node id="n6" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="domain">real</data><data key="note">No unit has been attached to this variable yet, as multiple currency units exist, and as relative currency values vary in time (next to the price variations).</data><data key="description">This variable is used to express the price of steel.</data><data key="name">steel price</data></node>
+<node id="n7" labels=":Variable"><data key="labels">:Variable</data><data key="name">free stream wind direction</data><data key="note">A reference height must still be added!</data><data key="author">equaeghebeur</data><data key="unit">°′″</data><data key="description">This variable expresses the direction of the free stream wind as a north-based azimuth, so N=0°, E=90°, S=180°, and W=270°.</data><data key="domain">real</data></node>
+<node id="n8" labels=":Object"><data key="labels">:Object</data><data key="name">wind turbine</data><data key="author">equaeghebeur</data><data key="description">A generic wind turbine.</data></node>
+<node id="n9" labels=":Object"><data key="labels">:Object</data><data key="description">A generic horizontal axis wind turbine.</data><data key="name">HAWT</data><data key="author">equaeghebeur</data></node>
+<node id="n10" labels=":Object"><data key="labels">:Object</data><data key="description">A generic vertical axis wind turbine.</data><data key="name">VAWT</data><data key="author">equaeghebeur</data></node>
+<node id="n11" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">jacket</data><data key="description">A generic jacket space frame.</data></node>
+<node id="n12" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">tripod</data><data key="description">A generic tripod space frame.</data></node>
+<node id="n13" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">tri-pile</data><data key="description">A generic tri-pile space frame.</data></node>
+<node id="n14" labels=":Object"><data key="labels">:Object</data><data key="description">The whole of the off-shore wind energy system</data><data key="name">OWES</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n15" labels=":Procedure"><data key="labels">:Procedure</data><data key="name">OWF decommissioning</data><data key="description">Decommissioning of the whole wind farm. The OWES is reverted into the environment.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n16" labels=":Object"><data key="labels">:Object</data><data key="name">gearbox</data><data key="author">equaeghebeur</data><data key="description">A generic gearbox.</data></node>
+<node id="n17" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A generic rotor.</data><data key="name">rotor</data></node>
+<node id="n18" labels=":Object"><data key="labels">:Object</data><data key="name">RNA</data><data key="author">equaeghebeur</data><data key="description">A generic rotor-nacelle assembly.</data></node>
+<node id="n19" labels=":Object"><data key="labels">:Object</data><data key="name">nacelle</data><data key="author">equaeghebeur</data><data key="description">A generic nacelle.</data></node>
+<node id="n20" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A generic tower.</data><data key="name">tower</data></node>
+<node id="n21" labels=":Object"><data key="labels">:Object</data><data key="name">drive train</data><data key="author">equaeghebeur</data><data key="description">A generic drive train.</data></node>
+<node id="n22" labels=":Object"><data key="labels">:Object</data><data key="name">generator</data><data key="author">equaeghebeur</data><data key="description">A generic generator.</data></node>
+<node id="n23" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A generic blade.</data><data key="name">blade</data></node>
+<node id="n24" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A generic brake.</data><data key="name">brake</data></node>
+<node id="n25" labels=":Object"><data key="labels">:Object</data><data key="name">low-speed shaft</data><data key="author">equaeghebeur</data><data key="description">A generic low-speed shaft.</data></node>
+<node id="n26" labels=":Object"><data key="labels">:Object</data><data key="name">high-speed shaft</data><data key="author">equaeghebeur</data><data key="description">A generic high-speed shaft.</data></node>
+<node id="n27" labels=":Object"><data key="labels">:Object</data><data key="name">generator stator</data><data key="author">equaeghebeur</data><data key="description">A generic generator stator.</data></node>
+<node id="n28" labels=":Object"><data key="labels">:Object</data><data key="name">floating</data><data key="description">A generic floating support structure.</data><data key="author">equaeghebeur</data></node>
+<node id="n29" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="name">support structure</data><data key="description">A generic support structure.</data></node>
+<node id="n30" labels=":Object"><data key="labels">:Object</data><data key="name">generator rotor</data><data key="author">equaeghebeur</data><data key="description">A generic generator rotor.</data></node>
+<node id="n31" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A generic rotor hub.</data><data key="name">hub</data></node>
+<node id="n32" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">rotor state</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n33" labels=":Object"><data key="labels">:Object</data><data key="name">electrical collection system</data><data key="author">sebastian</data><data key="description">electrical system used to gather electricity within farm</data></node>
+<node id="n34" labels=":Object"><data key="labels">:Object</data><data key="name">electrical transmission system</data><data key="author">sebastian,equaeghebeur</data><data key="description">The electrical system used to transmit the generated electrical power to the grid connection. (This grid connection may be on-shore or off-shore.)</data></node>
+<node id="n35" labels=":Object"><data key="labels">:Object</data><data key="name">AC electrical transmission system</data><data key="description">alternating current transmission system</data><data key="author">sebastian</data></node>
+<node id="n36" labels=":Object"><data key="labels">:Object</data><data key="name">DC electrical transmission system</data><data key="description">direct current transmission system</data><data key="author">sebastian</data></node>
+<node id="n37" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="unit">kg/m^3</data><data key="description">Air density at hub height at standard conditions</data><data key="name">air density</data><data key="domain">real</data></node>
+<node id="n38" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="unit">m</data><data key="domain">real</data><data key="description">distance between the center of the turbine's shaft and the blade tip on the rotor plane</data><data key="name">rotor radius</data></node>
+<node id="n39" labels=":Variable"><data key="labels">:Variable</data><data key="name">wind turbine available power</data><data key="unit">W</data><data key="domain">real</data><data key="author">sebastian,equaeghebeur</data><data key="description">The wind power available at the wind turbine hub.</data></node>
+<node id="n40" labels=":Model"><data key="labels">:Model</data><data key="description">The wind power available to a turbine is equal to f*v, where f is the dynamic force and v is the wind speed.</data><data key="name">wind turbine available power</data><data key="author">sebastian, equaeghebeur</data></node>
+<node id="n41" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">The platform at the base of the tower.</data><data key="name">transition piece</data></node>
+<node id="n42" labels=":Object"><data key="labels">:Object</data><data key="name">cooling system</data><data key="author">amir</data><data key="description">cooling system to remove heat created from friction and electromagnetic losses</data></node>
+<node id="n43" labels=":Variable"><data key="labels">:Variable</data><data key="name">wind speed time series</data><data key="description">A time series of wind speed data, which may be obtained by measurement or generated synthetically.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n44" labels=":Object"><data key="labels">:Object</data><data key="name">rotor bearing</data><data key="author">equaeghebeur</data><data key="description">A generic bearing of the rotor.</data></node>
+<node id="n45" labels=":Object"><data key="labels">:Object</data><data key="name">active yaw system</data><data key="author">amir</data><data key="description">The active yaw systems are equipped with some sort of torque producing device able to rotate the nacelle of the wind turbine against the stationary tower based on automatic signals from wind direction sensors or manual actuation (control system override).</data></node>
+<node id="n46" labels=":Object"><data key="labels">:Object</data><data key="name">yaw bearing</data><data key="author">equaeghebeur</data><data key="description">A generic yaw bearing.</data></node>
+<node id="n47" labels=":Object"><data key="labels">:Object</data><data key="name">yaw controller</data><data key="author">equaeghebeur</data><data key="description">A generic yaw controller.</data></node>
+<node id="n48" labels=":Object"><data key="labels">:Object</data><data key="name">yaw drive</data><data key="author">equaeghebeur</data><data key="description">A generic yaw drive.</data></node>
+<node id="n49" labels=":Object"><data key="labels">:Object</data><data key="name">yaw motor</data><data key="author">equaeghebeur</data><data key="description">A generic yaw motor.</data></node>
+<node id="n50" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">°</data><data key="note">A reference direction needs to be added.</data><data key="description">The yaw angle of the rotor-nacelle assembly.</data><data key="name">yaw angle</data><data key="domain">real</data></node>
+<node id="n51" labels=":Variable"><data key="labels">:Variable</data><data key="unit">°</data><data key="note">A reference direction needs to be added!</data><data key="domain">real</data><data key="name">pitch angle</data><data key="author">equaeghebeur</data><data key="description">The pitch angle of a blade.</data></node>
+<node id="n52" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="note">Does this belong to the nacelle, to another part (e.g., grid connection), or even still to the drive train?</data><data key="description">A generic converter to increase the frequency of the generated alternating current.</data><data key="name">converter</data></node>
+<node id="n53" labels=":Object"><data key="labels">:Object</data><data key="name">hub cover</data><data key="author">equaeghebeur</data><data key="description">A generic hub cover.</data></node>
+<node id="n54" labels=":Object"><data key="labels">:Object</data><data key="name">nacelle cover</data><data key="author">equaeghebeur</data><data key="description">A generic nacelle cover.</data></node>
+<node id="n55" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A metocean mast, providing wind, wave, water current, and other meteorological measurements.</data><data key="name">met mast</data></node>
+<node id="n56" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real</data><data key="name">tower length</data><data key="author">equaeghebeur</data><data key="description">The length of the tower.</data><data key="unit">m</data></node>
+<node id="n57" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">Hz</data><data key="domain">real</data><data key="description">The speed of a generator in revolutions per second (1 Hz = 60 rpm).</data><data key="name">generator speed</data></node>
+<node id="n58" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The power generated by a wind turbine.</data><data key="name">wind turbine power output</data></node>
+<node id="n59" labels=":Model"><data key="labels">:Model</data><data key="author">equaeghebeur</data><data key="description">The simple model for generating power output from wind speed based on the assumption that reality conforms to the power curve.</data><data key="name">power curve conformity</data></node>
+<node id="n60" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="name">wind turbine rated power</data><data key="description">The rated power of a wind turbine.</data></node>
+<node id="n61" labels=":Variable"><data key="labels">:Variable</data><data key="note">unit and domain not added, because this is a non-scalar variable; we need to discuss this!</data><data key="name">power curve</data><data key="author">equaeghebeur</data><data key="description">A wind turbine power curve.</data></node>
+<node id="n62" labels=":Model"><data key="labels">:Model</data><data key="author">equaeghebeur</data><data key="description">A generic model for an algorithm that creates a power curve given wind speed and power output pairs (for a given or fixed range of wind speeds).</data><data key="name">power curve algorithm</data></node>
+<node id="n63" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">m</data><data key="domain">real</data><data key="description">The height of the hub of the wind turbine.</data><data key="name">hub height</data></node>
+<node id="n64" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">%</data><data key="domain">real</data><data key="description">The ratio of the farm's power output to its potential, rated, output.</data><data key="name">capacity factor</data></node>
+<node id="n65" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">%</data><data key="domain">real</data><data key="description">The relative availability of a wind farm to produce electricity; e.g., if a quarter of its turbines are off-line, the availability factor is 75%.</data><data key="name">equivalent availability factor</data></node>
+<node id="n66" labels=":Variable"><data key="labels">:Variable</data><data key="name">wind turbine availability</data><data key="domain">bool</data><data key="description">The availability of the wind turbine, i.e., its capability of producing power.</data><data key="author">equaeghebeur</data></node>
+<node id="n67" labels=":Object"><data key="labels">:Object</data><data key="description">A chassis to mount objects on, such as drive train</data><data key="name">chassis</data><data key="author">amir</data></node>
+<node id="n68" labels=":Object"><data key="labels">:Object</data><data key="description">A pitch system that controls the pitch angle of the wind turbine blades</data><data key="author">amir</data><data key="name">pitch system</data></node>
+<node id="n69" labels=":Object"><data key="labels">:Object</data><data key="description">A control box that adjusts the pitch angle of the blades</data><data key="author">amir</data><data key="name">pitch control</data></node>
+<node id="n70" labels=":Object"><data key="labels">:Object</data><data key="description">A motor that drives the baldes and bring them to the set pitch angle</data><data key="author">amir</data><data key="name">pitch motor</data></node>
+<node id="n71" labels=":Object"><data key="labels">:Object</data><data key="description">A housing for hub component, pitch system component and blades attachments</data><data key="author">amir</data><data key="name">hub housing</data></node>
+<node id="n72" labels=":Object"><data key="labels">:Object</data><data key="author">amir</data><data key="name">pitch bearing</data><data key="description">A bearing for the pitch system</data></node>
+<node id="n73" labels=":Object"><data key="labels">:Object</data><data key="description">A brake system to stop and fix the the yaw angle</data><data key="author">amir</data><data key="name">yaw brake</data></node>
+<node id="n74" labels=":Variable"><data key="labels">:Variable</data><data key="unit">m</data><data key="domain">real</data><data key="description">The length of the blade from tip to root</data><data key="author">amir</data><data key="name">blade length</data></node>
+<node id="n75" labels=":Variable"><data key="labels">:Variable</data><data key="name">blade taper</data><data key="domain">real</data><data key="unit">%</data><data key="description">The taper of the blade</data><data key="author">amir</data></node>
+<node id="n76" labels=":Object"><data key="labels">:Object</data><data key="author">amir, equaeghebeur</data><data key="name">composite blade</data><data key="description">A blade made out of composite</data></node>
+<node id="n77" labels=":Object"><data key="labels">:Object</data><data key="author">amir</data><data key="name">aluminum blade</data><data key="description">A blade made out of aluminum</data></node>
+<node id="n78" labels=":Object"><data key="labels">:Object</data><data key="author">amir, equaeghebeur</data><data key="description">The site of an off-shore wind farm.</data><data key="name">site</data></node>
+<node id="n80" labels=":Object"><data key="labels">:Object</data><data key="name">existing infrastructure</data><data key="description">The existing infrastructure at or near to the site of the off-shore wind farm.</data><data key="author">amir, equaeghebeur</data></node>
+<node id="n81" labels=":Variable"><data key="labels">:Variable</data><data key="author">amir, equaeghebeur</data><data key="unit">m</data><data key="description">The distance of the wind farm from the shore</data><data key="name">distance to coast</data><data key="domain">real</data></node>
+<node id="n82" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">amir, equaeghebeur</data><data key="name">site seabed morphology</data><data key="description">The seabed morphology at the location of the site.</data></node>
+<node id="n83" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">site regulations</data><data key="description">The whole of the applicable regulations (e.g., environmental legislation) applicable in the geographical area of the off-shore wind farm site.</data><data key="author">amir, equaeghebeur</data></node>
+<node id="n84" labels=":Variable"><data key="labels">:Variable</data><data key="domain">bool</data><data key="description">Interaction with other human activities such as socio economy and military</data><data key="author">amir</data><data key="name">human activities</data></node>
+<node id="n85" labels=":Variable"><data key="labels">:Variable</data><data key="unit">°</data><data key="domaint">real</data><data key="description">The blade twist angle from root to tip</data><data key="name">twist angle</data><data key="author">amir</data></node>
+<node id="n86" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian,equaeghebeur</data><data key="name">LPC</data><data key="unit">¤/J</data><data key="domain">real</data><data key="description">The levelized production cost for electricity produced at the off-shore wind farm.</data></node>
+<node id="n87" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="name">total costs</data><data key="unit">$</data><data key="domain">real</data><data key="description">total costs in a certain year</data></node>
+<node id="n88" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="name">total revenue</data><data key="unit">$</data><data key="domain">real</data><data key="description">total revenue outside sales of electricity </data></node>
+<node id="n89" labels=":Variable"><data key="labels">:Variable</data><data key="name">real interest rate</data><data key="domain">real</data><data key="description">interest rate</data><data key="author">sebastian</data></node>
+<node id="n90" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real</data><data key="author">sebastian</data><data key="name">annual energy production</data><data key="unit">J</data><data key="description">total energy produced in a year</data></node>
+<node id="n91" labels=":Variable"><data key="labels">:Variable</data><data key="domain">integer</data><data key="author">sebastian</data><data key="name">economic lifetime</data><data key="unit">year</data><data key="description">number of years the project lasts</data></node>
+<node id="n92" labels=":Model"><data key="labels">:Model</data><data key="description">equation to calculate the levelised production costs. Eq. 4-2 in Great Expectations</data><data key="author">sebastian</data><data key="name">LPC</data></node>
+<node id="n93" labels=":Variable"><data key="labels">:Variable</data><data key="domain">bool</data><data key="description">Is it a military exercise are?</data><data key="name">military area</data><data key="author">amir</data></node>
+<node id="n94" labels=":Variable"><data key="labels">:Variable</data><data key="domain">bool</data><data key="description">Is it in the vicinity of 500 m from an underwater cabel location?</data><data key="name">underwater cabel</data><data key="author">amir</data></node>
+<node id="n95" labels=":Variable"><data key="labels">:Variable</data><data key="author">amir</data><data key="domain">bool</data><data key="description">Is the site located near a harbour or is it a navigational area?</data><data key="name">harbour and navigation</data></node>
+<node id="n96" labels=":Variable"><data key="labels">:Variable</data><data key="domain">bool</data><data key="description">Is the site located in a fishing zone?</data><data key="name">fishing zone</data><data key="author">amir</data></node>
+<node id="n97" labels=":Variable"><data key="labels">:Variable</data><data key="author">amir</data><data key="domain">bool</data><data key="description">Is there any oil, gas or mining activity in the site area?</data><data key="name">oil and mining zone</data></node>
+<node id="n98" labels=":Variable"><data key="labels">:Variable</data><data key="domain">bool</data><data key="description">Is there any recreational activities in the site area?</data><data key="name">recreational zone</data><data key="author">amir</data></node>
+<node id="n99" labels=":Model"><data key="labels">:Model</data><data key="name">human activity model</data><data key="description">This model tells if there is any human activity at the proposed site area or not</data><data key="author">amir</data></node>
+<node id="n100" labels=":Variable"><data key="labels">:Variable</data><data key="name">number of turbines</data><data key="domain">integer</data><data key="description">Number of wind turbines in the off-shore wind farm.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n101" labels=":Variable"><data key="labels">:Variable</data><data key="name">array efficiency</data><data key="domain">real</data><data key="description">The ratio of power produced by the farm to the power that would be produced should all turbines be in isolation. So, crudely put, the array efficiency characterizes the wake losses at the farm level.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n102" labels=":Object"><data key="labels">:Object</data><data key="author">sebastian</data><data key="name">ocean</data><data key="description">the ocean as object of the OWES</data></node>
+<node id="n103" labels=":Object"><data key="labels">:Object</data><data key="name">atmosphere</data><data key="description">The whole of the atmospheric conditions relevant to the wind farm.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n104" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">waves</data><data key="description">ocean waves</data><data key="author">sebastian</data></node>
+<node id="n105" labels=":Object"><data key="labels">:Object</data><data key="name">off-shore substation</data><data key="description">Off-shore substations (or substation hubs) can perform various functions within the electrical connections system of the off-shore wind farm: power collection, voltage transformation, conversion between AC and DC, reactive compensation, etc.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n107" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">electrical collection system layout</data><data key="description">The layout of the electrical collection system consists of the connection network of the electric devices (generators, transformer, etc.) in the collection system. It may include the exact position of these devices and the route of the connecting cables.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n110" labels=":Attribute"><data key="labels">:Attribute</data><data key="note">Improve description.</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009</data><data key="name">radial network with single hub</data><data key="description">Topology of the cables in electrical collection system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n111" labels=":Attribute"><data key="labels">:Attribute</data><data key="note">Improve description.</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009</data><data key="name">single return with single hub</data><data key="description">Topology of the cables in electrical collection system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n112" labels=":Attribute"><data key="labels">:Attribute</data><data key="note">Improve description.</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009</data><data key="name">single sided ring with single hub</data><data key="description">Topology of the cables in electrical collection system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n113" labels=":Attribute"><data key="labels">:Attribute</data><data key="note">Improve description.</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009</data><data key="name">double sided ring with single hub</data><data key="description">Topology of the cables in electrical collection system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n114" labels=":Attribute"><data key="labels">:Attribute</data><data key="note">Improve description.</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009</data><data key="name">star cluster with single hub</data><data key="description">Topology of the cables in electrical collection system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n115" labels=":Attribute"><data key="labels">:Attribute</data><data key="note">Improve description.</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009</data><data key="name">multi hub ring</data><data key="description">Topology of the cables in electrical collection system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n117" labels=":Object"><data key="labels">:Object</data><data key="name">collection system transformer</data><data key="description">A transformer within the electrical collection system. It steps up voltage to limit resistive losses in further stages of the collection system or in the transmission system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n118" labels=":Object"><data key="labels">:Object</data><data key="name">reactive compensation device</data><data key="author">sebastian</data><data key="description">devices to compensate reactive power</data></node>
+<node id="n119" labels=":Variable"><data key="labels">:Variable</data><data key="domain">integer</data><data key="description">transformers are used to step up voltages in collection system</data><data key="author">sebastian</data><data key="name">number of transformers at each voltage rating</data></node>
+<node id="n120" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian,equaeghebeur</data><data key="description">The length of the electrical cable.</data><data key="domain">real</data><data key="unit">m</data><data key="name">electrical cable length</data></node>
+<node id="n121" labels=":Variable"><data key="labels">:Variable</data><data key="note">Add description. Perhaps this node does not belong here?</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009, page 116.</data><data key="domain">integer</data><data key="name">number of cable terminations</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n122" labels=":Variable"><data key="labels">:Variable</data><data key="note">Improve description: a.o. switchboard vs. switchgear (same function, different standards/construction)</data><data key="reference">John Twidell, Gaetano Gaudiosi (eds.) “Offshore Wind Power”, Multi-Science Publishing Company, 2009, page 116.</data><data key="domain">integer</data><data key="name">number of switchboard panel sections</data><data key="description">Each voltage has a switchboard including switchgear.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n123" labels=":Variable"><data key="labels">:Variable</data><data key="domain">integer</data><data key="name">number of substation hubs</data><data key="description">a plant can have several hubs, perhaps each connected to shore with redundancy</data><data key="author">sebastian</data></node>
+<node id="n124" labels=":Variable"><data key="labels">:Variable</data><data key="name">electrical efficiency</data><data key="domain">real</data><data key="description">total electrical efficiency of the collector system</data><data key="author">sebastian</data></node>
+<node id="n125" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real</data><data key="author">sebastian,equaeghebeur</data><data key="name">production losses due to failures</data><data key="description">The amount of energy lost due to failures in the collection system.</data><data key="unit">J</data></node>
+<node id="n126" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">ocean currents</data><data key="description">currents are a factor to be assessed for site selection. has impact on foundation</data><data key="author">sebastian</data></node>
+<node id="n127" labels=":Variable"><data key="labels">:Variable</data><data key="reference">https://en.wikipedia.org/wiki/Weibull_distribution</data><data key="name">wind speed Weibull distribution</data><data key="description">Wind speed as a Weibull distribution random variable V, incorporating a model of its time-variability. The defining property of this distribution is that P(V&gt;v)=exp(-(v/c)^k), i.e., the probability of exceedance decreases exponentially with a power of the scaled velocity. Here, c is called the scale parameter and k is called the shape parameter.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n128" labels=":Variable"><data key="labels">:Variable</data><data key="domain">positive real</data><data key="value">around 2</data><data key="name">Weibull shape parameter</data><data key="description">A parameter that influences the shape of the Weibull distribution; in particular it determines its peakedness (higher values correspond to more peaked density functions). Often k is used as a symbol.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n129" labels=":Variable"><data key="labels">:Variable</data><data key="domain">positive real</data><data key="name">Weibull scale parameter</data><data key="description">A parameter that influences the scale of the Weibull distribution; in particular higher values correspond to more stretched-out probability density functions. Often c is used as a symbol; λ and A are also used.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n130" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">wind shear</data><data key="description">Change of wind speed with height in near-neutral conditions.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n131" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="unit">m</data><data key="domain">real</data><data key="description">a measure of the height of the surface roughness (z_0)</data><data key="name">surface roughness</data></node>
+<node id="n132" labels=":Variable"><data key="labels">:Variable</data><data key="unit">m/s</data><data key="domain">real</data><data key="name">friction speed</data><data key="description">A representation of shear stress in units of speed. Also called shear speed, and actually ‘velocity’ is often used instead of ‘speed’.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n133" labels=":Variable"><data key="labels">:Variable</data><data key="value">approximately 0.4</data><data key="name">Kármán's constant</data><data key="domain">real</data><data key="description">A dimensionless constant characterizing the logarithic wind shear profile; often denoted by κ (kappa).</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n134" labels=":Variable"><data key="labels">:Variable</data><data key="unit">m</data><data key="domain">real</data><data key="name">height</data><data key="author">sebastian</data><data key="description">height from point of interest to surface</data></node>
+<node id="n135" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">sebastian,equaeghebeur</data><data key="description">Region behind a structure with reduced wind speed and increased turbulence.</data><data key="name">wake</data></node>
+<node id="n136" labels=":Variable"><data key="labels">:Variable</data><data key="unit">m</data><data key="domain">real</data><data key="name">downwind distance</data><data key="author">sebastian</data><data key="description">distance from structure downstream</data></node>
+<node id="n137" labels=":Variable"><data key="labels">:Variable</data><data key="unit">m</data><data key="domain">real</data><data key="name">wake diameter</data><data key="author">sebastian</data><data key="description">diameter of the wake behind a structure</data></node>
+<node id="n138" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="unit">m</data><data key="domain">real</data><data key="description">distance from structure in the crosswind direction</data><data key="name">crosswind distance</data></node>
+<node id="n139" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian</data><data key="unit">m/s</data><data key="domain">real</data><data key="description">difference between wind speed before the structure and at some distance downstream</data><data key="name">wake deficit</data></node>
+<node id="n140" labels=":Variable"><data key="labels">:Variable</data><data key="name">turbulence intensity</data><data key="domain">real</data><data key="description">ratio of the turbulent wind speed to the mean wind speed</data><data key="author">sebastian</data></node>
+<node id="n141" labels=":Object"><data key="labels">:Object</data><data key="author">amir</data><data key="name">DC generator</data><data key="description">A direct current generator</data></node>
+<node id="n142" labels=":Object"><data key="labels">:Object</data><data key="name">AC synchronous generator</data><data key="description">A alternating
+current (AC) synchronous generator</data><data key="author">amir</data></node>
+<node id="n143" labels=":Object"><data key="labels">:Object</data><data key="name">AC asynchronous generator</data><data key="description">A alternating
+current (AC) asynchronous generator</data><data key="author">amir</data></node>
+<node id="n144" labels=":Variable"><data key="labels">:Variable</data><data key="domain">int</data><data key="author">amir, equaeghebeur</data><data key="description">The number of blades that form the rotor.</data><data key="name">number of blades</data></node>
+<node id="n145" labels=":Object"><data key="labels">:Object</data><data key="description">A type of rotor that the rotor speed is a constant for all wind speeds.</data><data key="author">amir</data><data key="name">fixed speed rotor</data></node>
+<node id="n146" labels=":Object"><data key="labels">:Object</data><data key="name">variable speed rotor</data><data key="description">A type of rotor that the rotor speed changes by the wind speed to keep the tip speed ratio around the optimum tip speed ratio.</data><data key="author">amir</data></node>
+<node id="n147" labels=":Object"><data key="labels">:Object</data><data key="author">amir,equaeghebeur</data><data key="description">A horizontal axis wind turbine whose rotor is upstream of the turbine tower.</data><data key="name">upwind HAWT</data></node>
+<node id="n148" labels=":Object"><data key="labels">:Object</data><data key="author">amir,equaeghebeur</data><data key="description">A horizontal axis wind turbine whose rotor is downstream of the turbine tower.</data><data key="name">downwind HAWT</data></node>
+<node id="n149" labels=":Object"><data key="labels">:Object</data><data key="description">The yaw system of wind turbines is the component responsible for the orientation of the wind turbine rotor towards the wind.</data><data key="author">amir</data><data key="name">yaw system</data></node>
+<node id="n150" labels=":Object"><data key="labels">:Object</data><data key="name">passive yaw system</data><data key="description">The passive yaw systems utilize the wind force in order to adjust the orientation of the wind turbine rotor into the wind.</data><data key="author">amir</data></node>
+<node id="n152" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">sebastian,equaeghebeur</data><data key="note">This node and its Variable children are perhaps a bit vague and should be integrated in the power (loss) accounting from wind-at-hub to grid connection.</data><data key="name">efficiency</data></node>
+<node id="n153" labels=":Variable"><data key="labels">:Variable</data><data key="unit">m^2</data><data key="domain">real</data><data key="description">The area of the site represents the area in which the wind turbine farm will be created</data><data key="name">area of the site</data><data key="author">amir</data></node>
+<node id="n156" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">sebastian</data><data key="name">turbulence</data><data key="description">concept of turbulence in the atmosphere</data></node>
+<node id="n157" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="description">The pair of endpoints of this cable, usually listed using cable endpoint identifiers.</data><data key="name">cable endpoint pair</data></node>
+<node id="n159" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">tower geometry</data><data key="author">equaeghebeur</data><data key="description">The geometry of a turbine tower.</data></node>
+<node id="n160" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">OWF production capacity</data><data key="description">The production capacity of the wind farm.</data><data key="author">equaeghebeur</data></node>
+<node id="n163" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">generator rotor state</data><data key="author">equaeghebeur</data></node>
+<node id="n164" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">One of the two endpoints of this cable.</data><data key="name">cable endpoint</data></node>
+<node id="n165" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">OWF layout</data><data key="description">The layout of the off-shore wind farm, i.e., the (relative) position of its turbines.</data><data key="author">equaeghebeur</data></node>
+<node id="n166" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">cable endpoint state</data></node>
+<node id="n167" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="description">The power flowing through this cable endpoint. The direction of the power flow is endoded using the sign of this quantity. A consistent choice of power flow directions should be chosen for all cables to make sure power balances add up.</data><data key="name">cable endpoint power flow</data></node>
+<node id="n168" labels=":Attribute"><data key="labels">:Attribute</data><data key="description">The movement of air in the atmosphere</data><data key="author">equaeghebeur</data><data key="name">wind</data></node>
+<node id="n169" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">N</data><data key="domain">real</data><data key="description">The force exerted by the wind on the rotor.</data><data key="name">thrust force</data></node>
+<node id="n171" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">OWF state</data><data key="author">equaeghebeur</data></node>
+<node id="n172" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">blade geometry</data><data key="author">equaeghebeur</data></node>
+<node id="n174" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">blade state</data><data key="author">equaeghebeur</data></node>
+<node id="n175" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">hub structure</data><data key="author">equaeghebeur</data></node>
+<node id="n176" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">rotor structure</data><data key="author">equaeghebeur</data></node>
+<node id="n177" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">wind turbine structure</data><data key="author">equaeghebeur</data></node>
+<node id="n178" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">wind turbine state</data><data key="author">equaeghebeur</data></node>
+<node id="n179" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">sebastian</data><data key="name">material of tower</data><data key="description">Material of which the tower is made</data></node>
+<node id="n180" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">material of tri-pile</data><data key="author">sebastian</data><data key="description">Material of which the tri-pile is made</data></node>
+<node id="n181" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">material of tripod</data><data key="author">sebastian</data><data key="description">Material of which the tripod is made</data></node>
+<node id="n182" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">material of monopile</data><data key="author">sebastian</data><data key="description">Material of which the monopile is made</data></node>
+<node id="n183" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">material of jacket</data><data key="author">sebastian</data><data key="description">Material of which the jacket is made</data></node>
+<node id="n184" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">material of transition piece</data><data key="description">Material of which the transition piece is made</data><data key="author">sebastian</data></node>
+<node id="n185" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">OWES performance</data><data key="description">The performance of the OWF as a system.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n186" labels=":Object"><data key="labels">:Object</data><data key="name">decommission crew</data><data key="description">The team responsible of removal of the wind farm.</data><data key="author">sebastian</data></node>
+<node id="n187" labels=":Object"><data key="labels">:Object</data><data key="name">installation crew</data><data key="note">Perhaps this could be changed into contractor or something at a higher level than crew.</data><data key="description">The team responsible of installing the wind farm.</data><data key="author">sebastian</data></node>
+<node id="n188" labels=":Procedure"><data key="labels">:Procedure</data><data key="name">OWF installation</data><data key="author">sebastian,equaeghebeur</data><data key="description">The installation of the off-shore wind farm. The off-shore wind farm is created.</data></node>
+<node id="n189" labels=":Variable"><data key="labels">:Variable</data><data key="name">thrust coefficient</data><data key="domain">real</data><data key="description">The thrust coefficient is a dimensionless quantity that characterizes the thrust of the wind on a turbine. It is usually denoted C_T and called ‘CT’.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n190" labels=":Model"><data key="labels">:Model</data><data key="note">This is a single-turbine wake model that does not take into account the actual wind speed at that single turbine, but assumes it is the free-stream wind speed.</data><data key="author">sebastian,equaeghebeur</data><data key="reference">Eq. 21. Chapter 4. Book Offshore Wind Power edited by John Twidell</data><data key="description">The Jensen wake model gives an expression the wake deficit at a distance x downwind of the turbine rotor: U_wake(x) = U_freestream * (1-sqrt(1-C_T)) / (1+2k(x/D)), where D=2r is the diameter of the rotor, C_T is the thrust coefficient, and k is the wake decay coefficient.</data><data key="name">Jensen wake model</data></node>
+<node id="n191" labels=":Variable"><data key="labels">:Variable</data><data key="name">wake decay coefficient</data><data key="domain">real</data><data key="description">Linear coefficient with which the wake diameter increases downwind according to the Jensen model.</data><data key="author">sebastian</data></node>
+<node id="n192" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">site location</data><data key="description">The geographic location of the site and related aspects.</data><data key="author">sebastian,equaeghebeur</data></node>
+<node id="n193" labels=":Model"><data key="labels">:Model</data><data key="author">sebastian,equaeghebeur</data><data key="reference">Eq. 20. Chapter 4. Book Offshore Wind Power edited by John Twidell</data><data key="description">Relation expressing the wake speed deficit as the difference of the freestream and the perturbed wind speed: Delta_U = U_freestream - U_wake.</data><data key="name">wake speed deficit</data></node>
+<node id="n194" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">rad/s</data><data key="domain">real</data><data key="name">rotor rotational speed</data><data key="description">The rotational speed of the rotor.</data></node>
+<node id="n195" labels=":Variable"><data key="labels">:Variable</data><data key="author">sebastian,equaeghebeur</data><data key="note">We need to reorganize the wake description. There is no such thing as a ‘wake wind speed’: we have wind speeds at (in) the turbine (rotor plane) (we are not interested in the wind speed elsewhere), which are determined by the free stream speed and wake effects. So we need to find a way to make it clear that the wind speed is turbine-dependent, i.e., location next to time-dependent.</data><data key="domain">real</data><data key="unit">m/s</data><data key="description">Speed of the wind downstream in the wind farm.</data><data key="name">wake wind speed</data></node>
+<node id="n196" labels=":Model"><data key="labels">:Model</data><data key="name">thrust coefficient</data><data key="reference">Wind Energy Explained Equation (3.17)</data><data key="description">The thrust coefficient C_T is equal to the ratio T/f, where T is the thrust force and f the dynamic force f.</data><data key="author">equaeghebeur</data></node>
+<node id="n198" labels=":Variable"><data key="labels">:Variable</data><data key="note">A reference height must still be added!</data><data key="author">equaeghebeur</data><data key="unit">m/s</data><data key="domain">real</data><data key="description">This variable expresses the speed of the free stream wind.</data><data key="name">free stream wind speed</data></node>
+<node id="n199" labels=":Variable"><data key="labels">:Variable</data><data key="name">free stream wind velocity</data><data key="note">A reference height must still be added!</data><data key="description">This variable expresses the velocity of the free stream wind, which is assumed to be constant over the off-shore wind farm.</data><data key="author">equaeghebeur</data></node>
+<node id="n200" labels=":Model"><data key="labels">:Model</data><data key="author">equaeghebeur</data><data key="description">The rotor swept area A as a function of the rotor radius r is given by A = πr^2.</data><data key="name">rotor swept area</data></node>
+<node id="n201" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">m²</data><data key="domain">real</data><data key="description">The area swept by the rotor; often denoted by A.</data><data key="name">rotor swept area</data></node>
+<node id="n202" labels=":Model"><data key="labels">:Model</data><data key="author">equaeghebeur</data><data key="description">The dynamic force f of the wind at the rotor as a function of wind speed v, air density ρ, and rotor swept area A is given by f = ρv²A/2.</data><data key="name">dynamic force</data></node>
+<node id="n203" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">N</data><data key="domain">real</data><data key="description">The dynamic force f of the wind at the rotor.</data><data key="name">dynamic force</data></node>
+<node id="n204" labels=":Model"><data key="labels">:Model</data><data key="description">The power coefficient C_P is equal to the ratio P/P_a, where P is the power generated by the rotor and P_a is the power available in the wind.</data><data key="name">power coefficient</data><data key="author">equaeghebeur</data></node>
+<node id="n205" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="domain">real</data><data key="description">The power coefficient is a dimensionless quantity that characterizes the power extraction of the rotor from the wind. It is usually denoted C_P and called ‘CP’.</data><data key="name">power coefficient</data></node>
+<node id="n206" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The power extracted by the rotor from the wind.</data><data key="name">rotor power</data></node>
+<node id="n207" labels=":Model"><data key="labels">:Model</data><data key="description">The relationship between the power coefficient C_P and the axial induction factor a according to one-dimensional momentum theory: C_P = 4a(1-a)². Note that not all roots are physical when solving for a.</data><data key="author">equaeghebeur</data><data key="reference">Wind Energy Explained (2nd edition), Equation (3.14)</data></node>
+<node id="n208" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real, between 0 and 1</data><data key="reference">Wind Energy Explained (2nd edition), Section 3.2</data><data key="author">equaeghebeur</data><data key="description">The fractional, so adimensional, decrease in wind velocity between free stream and the rotor plane; typically denoted by a.</data><data key="name">axial induction factor</data></node>
+<node id="n209" labels=":Model"><data key="labels">:Model</data><data key="description">The relationship between the thrust coefficient C_T and the axial induction factor a according to one-dimensional momentum theory: C_T = 4a(1-a). Note that not all roots are physical when solving for a.</data><data key="author">equaeghebeur</data><data key="reference">Wind Energy Explained (2nd edition), Equation (3.17)</data></node>
+<node id="n210" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">OWF structure</data></node>
+<node id="n211" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">m/s</data><data key="domain">real</data><data key="description">The lowest wind speed for which the turbine produces power.</data><data key="name">cut-in wind speed</data></node>
+<node id="n212" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">m/s</data><data key="domain">real</data><data key="description">The highest wind speed for which the turbine produces power.</data><data key="name">cut-out wind speed</data></node>
+<node id="n213" labels=":Variable"><data key="labels">:Variable</data><data key="name">OWF availability configuration</data><data key="description">The sets of available and unavailable turbines in the off-shore wind farm.</data><data key="author">equaeghebeur</data></node>
+<node id="n214" labels=":Procedure"><data key="labels">:Procedure</data><data key="author">equaeghebeur</data><data key="description">Maintenance of the off-shore wind farm, i.e., the global procedure for maintaining all its parts.</data><data key="name">OWF maintenance</data></node>
+<node id="n215" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">The party responsible for the maintenance of the off-shore wind farm.</data><data key="name">maintenance crew</data></node>
+<node id="n216" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="description">The general ‘health’ of the off-shore wind farm.</data><data key="name">OWF health</data></node>
+<node id="n217" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="description">The cost of maintaining the off-shore wind farm.</data><data key="name">OWF maintenance cost</data></node>
+<node id="n218" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="description">The general ‘health’ of the wind turbine.</data><data key="name">wind turbine health</data></node>
+<node id="n219" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="description">A value (e.g., an integer or a string) that uniquely identifies the wind turbine within the off-shore wind farm.</data><data key="name">wind turbine identifier</data></node>
+<node id="n220" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="note">Perhaps this (also) describes the state of a wind turbine.</data><data key="description">The reliability of a turbine, i.e., how prone it is to breaking down and so becoming unavailable and needing repair.</data><data key="name">wind turbine reliability</data></node>
+<node id="n221" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="description">The cost of decommissioning the off-shore wind farm.</data><data key="name">decommissioning cost</data></node>
+<node id="n222" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="description">The cost of installing the off-shore wind farm.</data><data key="name">installation cost</data></node>
+<node id="n223" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The power generated by the off-shore wind farm.</data><data key="name">OWF power output</data></node>
+<node id="n224" labels=":Variable"><data key="labels">:Variable</data><data key="note">Perhaps the unit should be more appropriate in magnitude, such as days or week (month or year are a bit problematic, as they cannot be expressed as a simple multiple of the base unit s or its derived multiple h)?</data><data key="author">equaeghebeur</data><data key="unit">h</data><data key="domain">real</data><data key="description">The mean time between failure of a wind turbine.</data><data key="name">wind turbine MTBF</data></node>
+<node id="n225" labels=":Variable"><data key="labels">:Variable</data><data key="note">Perhaps the unit should be more appropriate in magnitude, such as days or week (month or year are a bit problematic, as they cannot be expressed as a simple multiple of the base unit s or its derived multiple h)?</data><data key="author">equaeghebeur</data><data key="unit">h</data><data key="domain">real</data><data key="description">The time between failure of a wind turbine.</data><data key="name">wind turbine TBF</data></node>
+<node id="n226" labels=":Procedure"><data key="labels">:Procedure</data><data key="author">equaeghebeur</data><data key="description">Maintenance of a wind turbine, i.e., the global procedure for maintaining all its parts.</data><data key="name">wind turbine maintenance</data></node>
+<node id="n227" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="domain">real</data><data key="description">The tip-speed ratio.</data><data key="name">TSR</data></node>
+<node id="n228" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="desciption">The structure of the maintenance procedure for the off-shore wind farm. It reflects the choices made when designing the maintenance procedure and could perhaps also be called ‘maintenance strategy’. The strucure may include such things as what mix of preventative and corrective maintenance is used.</data><data key="description">The strategy for maintaining the off-shore wind farm; it reflects the choices made when designing the maintenance procedure.</data><data key="name">OWF maintenance structure</data></node>
+<node id="n229" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">h</data><data key="domain">real</data><data key="description">The mean time-to-repair of a broken wind turbine.</data><data key="name">wind turbine MTTR</data></node>
+<node id="n230" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">h</data><data key="domain">real</data><data key="description">The time-to-repair of a broken wind turbine.</data><data key="name">wind turbine TTR</data></node>
+<node id="n231" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="description">A wind turbine thrust curve, which gives the thrust coefficient as a function of wind speed.</data><data key="name">thrust curve</data></node>
+<node id="n232" labels=":Model"><data key="labels">:Model</data><data key="author">equaeghebeur</data><data key="description">The simple model for generating thrust coefficients from wind speed, based on the assumption that reality conforms to the thrust curve.</data><data key="name">thrust curve conformity model</data></node>
+<node id="n233" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghbeur</data><data key="description">The rated power of the off-shore wind farm, i.e., the sum of the rated powers of each of its constituent wind turbines.</data><data key="name">OWF rated power</data></node>
+<node id="n234" labels=":Model"><data key="labels">:Model</data><data key="description">The rated power of the off-shore wind farm is the sum of the rated powers of its constituent wind turbines.</data><data key="author">equaeghbeur</data></node>
+<node id="n236" labels=":Variable"><data key="labels">:Variable</data><data key="note">Should we consider design life extension?</data><data key="author">equaeghebeur</data><data key="unit">year</data><data key="domain">real</data><data key="description">The design life of the off-shore wind farm. Note that this could be longer than the design life of the individual turbines, as turbine replacments can be foreseen.</data><data key="name">OWF design life</data></node>
+<node id="n237" labels=":Variable"><data key="labels">:Variable</data><data key="description">The design life of the wind turbine.</data><data key="author">equaeghebeur</data><data key="unit">year</data><data key="domain">real</data><data key="name">wind turbine design life</data><data key="note">Should we consider design life extension?</data></node>
+<node id="n238" labels=":Variable"><data key="labels">:Variable</data><data key="unit">year</data><data key="domain">real</data><data key="name">OWF age</data><data key="author">equaeghebeur</data><data key="description">The age of the off-shore wind farm.</data></node>
+<node id="n239" labels=":Variable"><data key="labels">:Variable</data><data key="unit">year</data><data key="domain">real</data><data key="name">wind turbine age</data><data key="author">equaeghebeur</data><data key="description">The age of the wind turbine.</data></node>
+<node id="n240" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">site structure</data><data key="author">equaeghebeur</data></node>
+<node id="n242" labels=":Model"><data key="labels">:Model</data><data key="description">The tip-speed ratio λ = ωR / v, where ω is the rotor rotational speed, R is its radius, and v is the wind speed at hub height.</data><data key="author">equaeghebeur</data></node>
+<node id="n246" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">electrical collection system structure</data></node>
+<node id="n249" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">tower structure</data><data key="author">equaeghebeur</data></node>
+<node id="n250" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">tri-pile structure</data></node>
+<node id="n251" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">tripod structure</data><data key="author">equaeghebeur</data></node>
+<node id="n252" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">monopile structure</data></node>
+<node id="n253" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">jacket structure</data><data key="author">equaeghebeur</data></node>
+<node id="n254" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">transition piece structure</data></node>
+<node id="n255" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">atmospheric state</data><data key="author">equaeghebeur</data></node>
+<node id="n256" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">OWES structure</data><data key="author">equaeghebeur</data></node>
+<node id="n257" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">blade structure</data><data key="author">equaeghebeur</data></node>
+<node id="n258" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">ocean state</data><data key="author">equaeghebeur</data></node>
+<node id="n259" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The wind power available in the off-shore wind farm at the wind turbine hubs.</data><data key="name">OWF available wind power</data></node>
+<node id="n260" labels=":Model"><data key="labels">:Model</data><data key="domain">real</data><data key="description">The wind power available in the off-shore wind farm is the sum of the available powers at its constituent wind turbines' hubs.</data><data key="author">equaeghebeur</data><data key="unit">W</data></node>
+<node id="n261" labels=":Model"><data key="labels">:Model</data><data key="description">The off-shore wind farm power output is a fraction of the available power.</data><data key="author">equaeghebeur</data></node>
+<node id="n262" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real, between 0 and 1</data><data key="name">OWF power conversion factor</data><data key="description">The conversion factor that expresses the efficiency of the off-shore wind farm in converting the available wind power into produced power.</data><data key="author">equaeghebeur</data></node>
+<node id="n263" labels=":Model"><data key="labels">:Model</data><data key="description">The wind turbine power output is a fraction of the available power.</data><data key="author">equaeghebeur</data></node>
+<node id="n264" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real, between 0 and 1</data><data key="name">wind turbine power conversion factor</data><data key="description">The conversion factor that expresses the efficiency of the wind turbine in converting the available wind power into produced power.</data><data key="author">equaeghebeur</data></node>
+<node id="n265" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">The whole of the electrical components that link the turbines within the farm to the grid connection with the purpose of delivering the produced electrical power to the grid. This includes cables, substations, etc.</data><data key="name">electrical connection system</data></node>
+<node id="n267" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">yaw system state</data><data key="author">equaeghebeur</data></node>
+<node id="n270" labels=":Model"><data key="labels">:Model</data><data key="description">The wind turbine power output is a fraction of the rotor power.</data><data key="author">equaeghebeur</data></node>
+<node id="n271" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real, between 0 and 1</data><data key="name">wind turbine electromechanical power loss factor</data><data key="description">The conversion factor that expresses the efficiency of the wind turbine in converting the rotor power into electrical power output. So it characterizes electromechanical losses.</data><data key="author">equaeghebeur</data></node>
+<node id="n278" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="description">The set of all wind turbines that are part of the off-shore wind farm. Typically represented as a set of turbine identifiers.</data><data key="name">set of wind turbines</data></node>
+<node id="n279" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">electrical cable structure</data></node>
+<node id="n280" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">A cable that transfers electrical power generated in the off-shore wind farm, ultimately to the grid connection point.</data><data key="name">electrical cable</data></node>
+<node id="n281" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real</data><data key="name">electrical cable rated voltage</data><data key="description">The (peak) voltage the electrical cable is rated at.</data><data key="author">equaeghebeur</data><data key="unit">kVA</data></node>
+<node id="n282" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real</data><data key="name">electrical cable burial depth</data><data key="description">The depth at which the electrical cable is buried beneath the sea bed.</data><data key="author">equaeghebeur</data><data key="unit">m</data></node>
+<node id="n283" labels=":Variable"><data key="labels">:Variable</data><data key="domain">real</data><data key="name">electrical cable cross section</data><data key="description">The electrical cable cross section area.</data><data key="author">equaeghebeur</data><data key="unit">mm²</data></node>
+<node id="n285" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">electrical connection system structure</data></node>
+<node id="n286" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">electrical cable state</data><data key="author">equaeghebeur</data></node>
+<node id="n289" labels=":Model"><data key="labels">:Model</data><data key="description">The electrical cable power output is a fraction of the electrical cable power input (or the other way around). This model becomes invalid when the capacity of the cable cannot be neglected, e.g., when no power is delivered by the off-shore wind farm.</data><data key="author">equaeghebeur</data></node>
+<node id="n290" labels=":Variable"><data key="labels">:Variable</data><data key="name">electrical cable power loss factor</data><data key="domain">real, between 0 and 1</data><data key="author">equaeghebeur</data><data key="description">The conversion factor that expresses the efficiency of the electrical cable in transferring power. So it characterizes electrical (resistive) losses.</data></node>
+<node id="n296" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">electrical transmission system structure</data></node>
+<node id="n297" labels=":Variable"><data key="labels">:Variable</data><data key="name">set of transmission cable grid endpoints</data><data key="author">equaeghebeur</data><data key="description">The set of all grid-side transmission cable endpoints. Typically represented as a set of cable endpoint identifiers.</data></node>
+<node id="n298" labels=":Model"><data key="labels">:Model</data><data key="description">The power delivered to the grid by the off-shore wind farm is the sum of the power delivered to the grid by its constituent transmission cables.</data><data key="author">equaeghebeur</data></node>
+<node id="n299" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">off-shore substation structure</data></node>
+<node id="n301" labels=":Variable"><data key="labels">:Variable</data><data key="name">set of substation cable endpoints</data><data key="description">The set of electrical cable (endpoints) that is connected to this substation. (This is normally at least two.)</data><data key="author">equaeghebeur</data></node>
+<node id="n302" labels=":Attribute"><data key="labels">:Attribute</data><data key="author">equaeghebeur</data><data key="name">off-shore substation state</data></node>
+<node id="n303" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The electrical power losses of this substation.</data><data key="name">substation power loss</data></node>
+<node id="n304" labels=":Model"><data key="labels">:Model</data><data key="author">equaeghebeur</data><data key="description">The balance of power flowing through a substation consists of the power flowing in through collection cables, flowing out through further collection (system) cables and/or transmission cables, and being lost in the substation, e.g., through resistive losses. By giving the power terms involved a consistent sign (e.g., positive for inflow and negative for outflow and losses), the balance corresponds to the sum of all signed power terms being zero.</data><data key="name">substation power balance</data></node>
+<node id="n305" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">The switchgear of this wind turbine, which enables its connection to the electrical collection system. It is usually located in the base of the tower. It allows connection of the turbine itself, ‘upstream’ wind turbines, auxiliary circuits (e.g., for control systems), etc. of which some or all may be disconnected (to avoid, e.g., losses due to cable capacity).</data><data key="name">turbine switchgear</data></node>
+<node id="n306" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">Switchgear allows connection of cables and auxiliary circuits (e.g., for control systems), etc. of which some or all may be disconnected (to avoid, e.g., losses due to cable capacity).</data><data key="name">switchgear</data></node>
+<node id="n307" labels=":Object"><data key="labels">:Object</data><data key="author">equaeghebeur</data><data key="description">Switchgear of this substation, which enables its connection to the electrical collection system. It allows connection of ‘upstream’ wind turbines, auxiliary circuits (e.g., for control systems), etc. of which some or all may be disconnected (to avoid, e.g., losses due to cable capacity).</data><data key="name">substation switchgear</data></node>
+<node id="n308" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The electrical power losses of this set of switch gear.</data><data key="name">switchgear power loss</data></node>
+<node id="n309" labels=":Attribute"><data key="labels">:Attribute</data><data key="name">switchgear state</data><data key="author">equaeghebeur</data></node>
+<node id="n310" labels=":Model"><data key="labels">:Model</data><data key="description">The balance of power flowing through an electrical cable consists of the power flowing in, out, and being lost. By giving the power terms involved a consistent sign (e.g., positive for inflow and negative for outflow and losses), the balance corresponds to the sum of all three signed power terms being zero.</data><data key="author">equaeghebeur</data></node>
+<node id="n311" labels=":Variable"><data key="labels">:Variable</data><data key="author">equaeghebeur</data><data key="unit">W</data><data key="domain">real</data><data key="description">The electrical power loss in this electrical cable. The loss is typically connected to cable resistance.</data><data key="name">electrical cable power loss</data></node>
+<node id="n706" labels=":Object"><data key="labels">:Object</data><data key="author">sebastian, equaeghebeur</data><data key="description">A generic off-shore wind farm.</data><data key="name">OWF</data></node>
+<node id="n707" labels=":Object"><data key="labels">:Object</data><data key="description">All external conditions</data><data key="name">environment</data><data key="author">sebastian</data></node>
+<node id="n710" labels=":Object"><data key="labels">:Object</data><data key="name">direct drive train</data><data key="author">equaeghebeur</data><data key="description">A generic gearless drive train</data></node>
+<edge id="e0" source="n710" target="n21" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e1" source="n1" target="n21" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e2" source="n10" target="n8" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e3" source="n9" target="n8" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e4" source="n8" target="n706" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e5" source="n20" target="n29" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e6" source="n22" target="n21" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e7" source="n30" target="n22" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e8" source="n27" target="n22" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e9" source="n16" target="n1" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e10" source="n24" target="n21" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e11" source="n23" target="n17" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e12" source="n31" target="n17" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e13" source="n706" target="n14" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e14" source="n18" target="n9" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e15" source="n39" target="n204" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e16" source="n25" target="n1" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e17" source="n26" target="n1" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e18" source="n19" target="n18" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e19" source="n21" target="n19" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e20" source="n0" target="n2" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e21" source="n3" target="n2" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e22" source="n11" target="n2" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e23" source="n12" target="n2" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e24" source="n13" target="n2" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e25" source="n28" target="n2" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e26" source="n2" target="n29" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e27" source="n29" target="n8" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e28" source="n707" target="n14" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e31" source="n35" target="n34" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e32" source="n36" target="n34" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e33" source="n39" target="n40" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e34" source="n205" target="n204" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e35" source="n206" target="n204" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e36" source="n5" target="n40" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e37" source="n41" target="n29" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e38" source="n169" target="n196" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e40" source="n46" target="n45" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e41" source="n47" target="n45" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e42" source="n44" target="n21" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e43" source="n48" target="n45" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e44" source="n49" target="n45" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e45" source="n42" target="n19" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e46" source="n86" target="n185" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e47" source="n169" target="n32" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e48" source="n52" target="n19" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e49" source="n53" target="n31" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e50" source="n54" target="n19" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e51" source="n80" target="n707" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e52" source="n57" target="n163" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e53" source="n61" target="n62" label="OUTPUT_OF"><data key="label">OUTPUT_OF</data></edge>
+<edge id="e54" source="n38" target="n200" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e55" source="n56" target="n159" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e56" source="n156" target="n168" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e58" source="n128" target="n127" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e59" source="n201" target="n200" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e62" source="n61" target="n59" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e63" source="n5" target="n59" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e64" source="n58" target="n59" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e65" source="n5" target="n62" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e66" source="n58" target="n62" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e68" source="n67" target="n19" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e69" source="n68" target="n31" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e70" source="n69" target="n68" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e71" source="n70" target="n68" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e72" source="n71" target="n68" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e73" source="n72" target="n68" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e74" source="n73" target="n45" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e75" source="n198" target="n199" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e76" source="n17" target="n18" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e77" source="n142" target="n22" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e78" source="n141" target="n22" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e79" source="n127" target="n198" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e80" source="n219" target="n177" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e81" source="n129" target="n127" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e83" source="n101" target="n165" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e84" source="n84" target="n78" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e85" source="n707" target="n15" label="OUTPUT_OF"><data key="label">OUTPUT_OF</data></edge>
+<edge id="e86" source="n86" target="n92" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e87" source="n87" target="n92" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e88" source="n88" target="n92" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e89" source="n89" target="n92" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e90" source="n90" target="n92" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e91" source="n91" target="n92" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e92" source="n94" target="n99" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e93" source="n95" target="n99" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e94" source="n96" target="n99" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e95" source="n97" target="n99" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e96" source="n98" target="n99" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e97" source="n84" target="n99" label="OUTPUT_OF"><data key="label">OUTPUT_OF</data></edge>
+<edge id="e98" source="n102" target="n707" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e99" source="n103" target="n707" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e100" source="n130" target="n168" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e104" source="n125" target="n152" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e118" source="n55" target="n14" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e119" source="n4" target="n177" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e120" source="n205" target="n207" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e123" source="n194" target="n32" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e124" source="n164" target="n280" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e125" source="n37" target="n202" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e126" source="n227" target="n242" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e128" source="n131" target="n130" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e129" source="n132" target="n130" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e130" source="n133" target="n130" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e131" source="n134" target="n130" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e132" source="n189" target="n196" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e133" source="n135" target="n168" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e134" source="n136" target="n135" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e135" source="n137" target="n135" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e136" source="n138" target="n135" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e137" source="n139" target="n135" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e138" source="n140" target="n135" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e139" source="n149" target="n9" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e140" source="n166" target="n164" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e141" source="n77" target="n23" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e142" source="n76" target="n23" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e143" source="n143" target="n22" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e144" source="n64" target="n160" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e145" source="n145" target="n17" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e146" source="n146" target="n17" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e147" source="n147" target="n9" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e148" source="n148" target="n9" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e149" source="n45" target="n149" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e150" source="n189" target="n190" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e151" source="n150" target="n149" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e153" source="n93" target="n99" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e154" source="n74" target="n172" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e155" source="n167" target="n166" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e156" source="n140" target="n156" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e157" source="n7" target="n199" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e158" source="n5" target="n242" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e159" source="n199" target="n168" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e160" source="n124" target="n152" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e161" source="n157" target="n279" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e163" source="n157" target="n310" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e165" source="n167" target="n310" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e168" source="n4" target="n165" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e169" source="n75" target="n172" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e171" source="n85" target="n172" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e173" source="n167" target="n304" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e175" source="n157" target="n289" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e177" source="n167" target="n289" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e179" source="n167" target="n298" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e183" source="n51" target="n174" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e185" source="n63" target="n175" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e187" source="n144" target="n176" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e189" source="n38" target="n242" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e191" source="n58" target="n178" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e192" source="n195" target="n190" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e193" source="n15" target="n186" label="INSTRUCTS"><data key="label">INSTRUCTS</data></edge>
+<edge id="e194" source="n14" target="n15" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e195" source="n188" target="n187" label="INSTRUCTS"><data key="label">INSTRUCTS</data></edge>
+<edge id="e201" source="n6" target="n179" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e202" source="n6" target="n182" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e203" source="n6" target="n181" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e204" source="n6" target="n183" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e205" source="n6" target="n180" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e206" source="n6" target="n184" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e208" source="n707" target="n188" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e209" source="n706" target="n188" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e210" source="n14" target="n188" label="OUTPUT_OF"><data key="label">OUTPUT_OF</data></edge>
+<edge id="e211" source="n706" target="n15" label="OUTPUT_OF"><data key="label">OUTPUT_OF</data></edge>
+<edge id="e213" source="n38" target="n190" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e214" source="n191" target="n190" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e215" source="n78" target="n707" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e218" source="n81" target="n192" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e219" source="n194" target="n242" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e220" source="n139" target="n193" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e221" source="n195" target="n193" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e222" source="n201" target="n202" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e223" source="n43" target="n198" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e226" source="n203" target="n202" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e227" source="n203" target="n40" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e228" source="n208" target="n209" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e229" source="n208" target="n207" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e230" source="n5" target="n202" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e231" source="n203" target="n196" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e232" source="n189" target="n209" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e233" source="n60" target="n61" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e234" source="n61" target="n177" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e235" source="n211" target="n61" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e236" source="n212" target="n61" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e237" source="n160" target="n210" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e238" source="n165" target="n210" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e239" source="n65" target="n213" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e240" source="n280" target="n265" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e241" source="n66" target="n213" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e242" source="n214" target="n215" label="INSTRUCTS"><data key="label">INSTRUCTS</data></edge>
+<edge id="e243" source="n214" target="n216" label="MODIFIES"><data key="label">MODIFIES</data></edge>
+<edge id="e244" source="n216" target="n171" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e245" source="n217" target="n214" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e246" source="n218" target="n178" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e247" source="n218" target="n216" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e248" source="n198" target="n190" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e249" source="n198" target="n193" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e250" source="n5" target="n168" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e251" source="n221" target="n15" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e252" source="n222" target="n188" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e253" source="n223" target="n171" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e254" source="n224" target="n225" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e255" source="n225" target="n220" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e256" source="n220" target="n177" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e257" source="n226" target="n218" label="MODIFIES"><data key="label">MODIFIES</data></edge>
+<edge id="e258" source="n226" target="n214" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e259" source="n37" target="n255" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e260" source="n66" target="n218" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e261" source="n213" target="n216" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e262" source="n228" target="n214" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e263" source="n229" target="n230" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e264" source="n230" target="n228" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e265" source="n231" target="n177" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e266" source="n231" target="n232" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e267" source="n189" target="n232" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e268" source="n5" target="n232" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e269" source="n233" target="n160" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e270" source="n233" target="n234" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e271" source="n60" target="n234" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e276" source="n236" target="n210" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e277" source="n237" target="n177" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e278" source="n238" target="n171" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e279" source="n239" target="n178" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e280" source="n192" target="n240" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e281" source="n240" target="n78" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e282" source="n82" target="n240" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e283" source="n83" target="n240" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e290" source="n32" target="n17" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e295" source="n163" target="n30" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e301" source="n171" target="n706" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e304" source="n174" target="n23" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e305" source="n175" target="n31" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e306" source="n176" target="n17" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e307" source="n177" target="n8" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e308" source="n178" target="n8" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e317" source="n210" target="n706" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e340" source="n246" target="n33" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e341" source="n107" target="n246" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e344" source="n249" target="n20" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e345" source="n159" target="n249" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e346" source="n179" target="n249" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e347" source="n250" target="n13" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e348" source="n180" target="n250" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e349" source="n251" target="n12" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e350" source="n181" target="n251" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e351" source="n252" target="n0" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e352" source="n182" target="n252" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e353" source="n253" target="n11" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e354" source="n183" target="n253" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e355" source="n254" target="n41" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e356" source="n184" target="n254" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e357" source="n168" target="n255" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e358" source="n255" target="n103" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e359" source="n38" target="n176" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e360" source="n152" target="n246" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e361" source="n185" target="n256" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e362" source="n256" target="n14" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e363" source="n172" target="n257" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e364" source="n257" target="n23" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e365" source="n258" target="n102" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e366" source="n126" target="n258" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e367" source="n104" target="n258" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e368" source="n153" target="n240" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e369" source="n259" target="n260" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e370" source="n39" target="n260" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e372" source="n259" target="n210" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e373" source="n259" target="n261" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e374" source="n223" target="n261" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e375" source="n262" target="n261" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e376" source="n39" target="n263" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e377" source="n58" target="n263" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e378" source="n264" target="n263" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e379" source="n111" target="n107" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e380" source="n110" target="n107" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e381" source="n113" target="n107" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e382" source="n112" target="n107" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e383" source="n115" target="n107" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e384" source="n114" target="n107" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e386" source="n33" target="n265" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e387" source="n34" target="n265" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e388" source="n265" target="n706" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e389" source="n50" target="n267" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e390" source="n267" target="n149" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e393" source="n206" target="n270" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e394" source="n58" target="n270" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e395" source="n271" target="n270" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e396" source="n100" target="n278" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e403" source="n105" target="n265" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e404" source="n117" target="n105" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e405" source="n118" target="n105" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e406" source="n120" target="n279" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e407" source="n279" target="n280" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e409" source="n281" target="n279" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e410" source="n282" target="n279" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e411" source="n283" target="n279" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e414" source="n121" target="n285" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e415" source="n285" target="n265" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e416" source="n123" target="n285" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e417" source="n119" target="n285" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e418" source="n122" target="n285" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e419" source="n286" target="n280" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e424" source="n290" target="n289" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e431" source="n296" target="n34" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e432" source="n297" target="n296" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e433" source="n297" target="n298" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e436" source="n299" target="n105" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e438" source="n301" target="n299" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e439" source="n302" target="n105" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e440" source="n303" target="n302" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e441" source="n303" target="n304" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e444" source="n301" target="n304" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e446" source="n223" target="n298" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e448" source="n278" target="n210" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e449" source="n278" target="n260" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e450" source="n278" target="n234" label="INPUT_TO"><data key="label">INPUT_TO</data></edge>
+<edge id="e452" source="n305" target="n8" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e453" source="n305" target="n306" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e454" source="n306" target="n33" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e455" source="n307" target="n306" label="VARIANT_OF"><data key="label">VARIANT_OF</data></edge>
+<edge id="e456" source="n308" target="n309" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e457" source="n309" target="n306" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e458" source="n290" target="n286" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e460" source="n271" target="n178" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+<edge id="e463" source="n311" target="n310" label="APPEARS_IN"><data key="label">APPEARS_IN</data></edge>
+<edge id="e464" source="n311" target="n286" label="DESCRIBES"><data key="label">DESCRIBES</data></edge>
+</graph>
+</graphml>

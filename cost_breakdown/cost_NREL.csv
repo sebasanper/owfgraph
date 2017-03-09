@@ -1,0 +1,343 @@
+1	Capital Expenditures (CapEx)	All installed costs incurred prior to commercial operations date (COD). CapEx components include turbine, BOS, and soft costs.
+2	Wind Turbine	Converts kinetic energy from wind into three phase AC electrical energy.
+3	Drivetrain Module	Main power conversion system in the wind turbine, where energy captured by the rotor is transferred  to drive the generator via the main shaft system, with or without a gearbox 
+4	Gearbox	Provides speed and torque conversion between the rotor and the generator.  Only applicable for geared designs.
+5	Gears	Planet carrier, planet gear, ring gear, sun gear, spur gear, hollow shaft
+5	Bearings	Planet bearing, carrier bearing, shaft bearing
+5	Housing	Bushing, case, mounting, torque arm system
+5	Sensors	Debris sensors, oil level sensors, pressure 1 & pressure 2 sensors, and temperature sensor
+5	Lube System	Primary filter, secondary filter, primary motor, primary pump, hose/fitting, seal, and reservoir
+5	Cooling System	Pump, radiator, hoses
+4	Generator	Converts mechanical energy to electrical energy.
+5	Cooling System	Hoses, filter, cooling fan, motor, radiator
+5	Lubrication System	Pump, pump motor, reservoir
+5	Rotor	Commentator, exciter, resistance controller, rotor lamination, rotor winding, slip ring, rotor magnets, brush
+5	Sensors	Core temperature sensor, encoder, watt meter
+5	Stator	Stator magnets, stator lamination, stator windings
+5	Structural & Mechanical 	Front bearing, rear bearing, silent block, housing, and shaft
+4	Low Speed Shaft and Main Bearing System	Transfers torque from the rotor to the gearbox (if applicable) or generator if dirrect drive
+5	Low Speed Shaft  	Low speed shaft, compression coupling, rotor lock, connector plate, and slip ring assembly
+5	Main Bearing	Main bearing upwind, main bearing downwind, main bearing seals, 
+5	Sensors 	Main bearing temperature sensor, low speed shaft rpm, and position sensor
+4	High Speed Shaft and Braking System	High speed shaft, coupling, rotor lock, and transmission shaft
+5	High Speed Shaft 	High speed shaft, coupling, rotor lock, and transmission shaft
+5	Braking System	Brake disc, brake calipers, brake pads, and transmission lock
+5	Sensors 	High speed shaft rpm sensor, position sensor
+3	Rotor Module	System to capture wind energy and transfer to the drive train (through the low speed shaft).  
+4	Blade	Captures the kinetic energy in the wind and transfer torque and other unwanted loads to the drive train module and rest of the turbine.
+5	Root Structure 	Interface between the main composite section of the blade and the blade bearing
+5	Sandwich Core	Low-density core material between laminates
+5	Spar/ Spar Box	Spar cap and spar web
+5	Bond	Bonds for leading edge and trailing edge
+5	Fasteners	T-bolt/Root Insert, others
+5	Laminates 	Internal structural laminates and skin laminates
+5	Paint and coatings	Coatings to protect from erosion
+5	Lightening protection 	Termination and down-conductor
+5	De-icing system 	Sensors, heaters, wiring, thermal conductors
+5	Aerodynamic Accessories	Active and passive blade accessories: aileron, tip bakes, etc.
+4	Pitch System	Adjusts the pitch angle of the blades to control power output from the turbine, minimize loads, and start/stop turbine as needed. Blades are attached to the hub through the pitch systems 
+5	Pitch Drive	Motor, motor cooling fan, pitch bearing, motor brake, pitch gear, gear reducer, pinion, power electronics/drive, cabling, contractor/circuit breaker fuse, encoder, power supply, heater, accumulator, pump
+5	Pitch Cabinet	Switchboard/limit switch, battery, battery charger, heater, position controller, load controller
+5	Sensors	Temperature sensor, voltmeter, position sensor
+5	Miscellaneous 	Seals, auto lube system, pitch cylinder linkage, bushing, proportional valve, hose/fitting
+4	Hub System 	The hub connects the blades and pitch system to the low speed shaft within the drivetrain module
+5	Hub	Connects the blades and pitch system to the low speed shaft within the drivetrain module
+5	Nose Cone	Protective cap fitted on the hub, largely aesthetic
+5	Exit Hatch	Provides  access to and exit from the hub system
+3	Electrical Module	Power off-take system for the wind turbine,  connects the drivetrain module to the array cable system through the main transformer in the tower
+4	Frequency Converter	Coverts variable frequency from asynchronous generator to grid-compliant power of the right ‘quality' and with a stable frequency of either 50 Hz or 60 Hz
+5	Converter Auxiliaries 	Power supply, cabinet, heating system, cabinet sensor, communication & interface unit, control board, generator side fan, grid side fan, measurement unit, power supply, power supply 24 V, tachometer adapter, thermostat
+5	Converter Power Bus	Branching unit, capacitors, contactors, generator side converter, generator side power module, grid side converter, grid side power module, inductor, load switch, pre-charge unit
+5	Power Conditioning 	Common mode filter, crowbar system, DC chopper, generator side filter, line filter assembly, voltage limit unit
+4	Power Electrical System 	System to covert generator voltage to array cable system voltage for collection
+5	Power Circuit	IGBT module, rectifier bridge, crowbar system, driver/control board, cables, machine contractor, Mv Busbar/Isolator/Circuit Breaker, Mv Switchgear/Disconnect, motor contractor, soft starter, grounding system
+5	Main Transformer	Main transformer within tower, nacelle-mounted transformer
+5	Measurements	Equipment to measure the function of the power electric system
+4	Control & Communication System 	Connects the wind turbines with an onshore operations center, provides wind project operator with information about the status of wind turbine systems and allows remote control of some functions
+5	Wind Turbine Controller	Rotor controller, nacelle controller, tower controller (all comprised of numerous level 6 components)
+5	Communication System  	Analog I/O unit, digital I/O unit, Ethernet module, field bus master, field bus slave, frequency unit, controller internal communication system
+5	Condition Monitoring System 	Sensors, cables, data logger, protocol adapter card for data logger
+5	Ancillary Equipment	Cables, connectors, contactor/circuit breaker fuse
+4	Auxiliary Electrical System	Other equipment necessary for the function of the electrical system
+5	Drop Cable	Cables to off-take power from drivetrain and transport to main transformer (in tower base)
+5	Electrical Services	24 DC feeder, auxiliary transformer, breaker, cabinet, fan, fuse, grid protection relay, light, mechanical switch, power point/supply, protection cabinet, push button, relay, space heater, surge arrester, thermal protection, UPS
+5	Lightning Protection System 	Air termination, bonding element, earth connector & termination, sliding contact, spark gap system, surge arrester
+4	Electrical Module IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the electrical module before delivery to customer (does not include commissioning activities)
+3	Nacelle Module 	Nacelle module provides structural interface between tower module, drivetrain module, and rotor module. Provides shelter to sensitive electrical and mechanical components and equipment for access by maintenance personnel. 
+4	Nacelle Structure 	Nacelle structure provides the structure interface between the tower,  drivetrain, and rotor and shelters sensitive equipment
+5	Enclosure	Structure, Exit hatch, hatch, latches, and helicopter landing pad.
+5	Drivetrain Support Structure	Bedplate generator frame  (can be a single unit), including welded steel and fasteners
+5	Coatings	Coatings to protect from corrosion in marine environment
+4	Nacelle Auxiliaries	Other equipment within the nacelle necessary for the necessary for the function of the wind turbine 
+5	Nacelle Sensors	Anemometer, wind vane, temperature sensor
+5	Internal Environment	Nacelle heater, nacelle vent, nacelle lighting
+5	External Lighting	Navigational lighting lights (requirements set by FAA in United States)
+5	Walking/Climbing Infrastructure	Cat walks, cables, ladders, landing, people hatch, crane hatch,
+5	Safety System	Tie-off system, firefighting system, fall arrester, down conductor, service crate, beacon, nacelle cover metallic mesh, lighting protection
+5	Onboard Crane	Davit crane to lift small components (<2 mt) from support structure or maintenance vessel into nacelle
+5	Internal Maintenance Hoist	Hoist within the tower used to hoist tools and supplies during maintenance activities
+4	Yaw System	Yaw system orients the nacelle to the wind direction during operation.
+5	Brake	Yaw brake calipers, disc, path, hoses
+5	Drives & Bearings	Motor, gear, pinion, bearing, damper
+5	Hydraulics	Accumulator, pump, hoses and valves, motor
+5	Yaw Sensors	Wind-up counter, yaw encoder, position sensor
+4	Nacelle Module IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the Nacelle module before delivery to customer (does not include commissioning activities)
+3	Tower Module	Support structure element that connects the nacelle, drive train and rotor modules with the substructure & foundation, can house electrical conversion equipment and provide emergency shelter
+4	Tower System	Tower system is the primary structural component
+5	Tower Structure	Tower sections, generally consists of rolled steel sections though other options are being considered
+5	Fasteners	
+5	Coating	Coatings to protect from corrosion in marine environment
+4	Ancillary Equipment	Other equipment within the tower necessary for the necessary for the function of the wind turbine
+5	Personnel Access and Survival Equipment	Climb assist, hatches, ladders, landings, lighting, doors, food and fresh water storage,
+5	Electrical System	Wiring to support tower auxiliaries
+5	Tower Internal Lighting	Lighting within the tower to provide a safe working environment
+5	Equipment Support  	
+5	Aerodynamic Accessories	Passive accessories on tower to improve energy capture (likely applicable only for downwind deigns)
+5	Damping System	 Tower mounted damping system to reduce transfer of unwanted torque from nacelle through tower
+4	Integration, Assembly, Test, and Checkout	Activities performed by manufacturer to integrate, assemble, test, and verify the Tower Module before  delivery to customer  (does not include commissioning activities)
+3	Pricing Effects 	 Financial costs for wind turbine supply contract, including warranty cost, G&A expenses, and profit margin   
+4	Warranty 	 Expected costs of providing guarantee that turbine will operate above a set availability and that power production matches or exceeds advertised power curve for a fixed period
+4	Profit Margin	 Profit margin on sale of wind turbine equipment and warranty
+4	General and Administrative 	Overhead for supplying turbine including administrative salaries and benefits, rent, utilities, depreciation, insurance, etc.
+3	Transportation	Transportation of all turbine modules to the staging port. 
+4	Drivetrain & Nacelle	Transportation of drivetrain and nacelle from the manufacturing facility to the staging site.
+4	Rotor Module	Transportation of the rotor module from the manufacturing facility  to the staging site.
+4	Tower Module	Transportation of the tower module from the manufacturing facility  to the staging site.
+3	Turbine Commissioning	 Process of assuring that all wind turbine systems and components are operational through predefined series of tests and checks. 
+2	Balance of Station (BOS)	Balance of equipment, labor, and material costs (other than wind turbine) incurred prior to COD
+3	Development	All activities from project inception to financial close (where financial close is the date where project and financing agreements have been signed and all the required conditions  have been met)
+4	Permitting & Leasing	Acquisition of permits and leases required for site assessment, construction, and operation at the project site
+5	Siting & Scoping	Initial desktop-level studies to select project location, develop a conceptual design, identify regulatory requirements, and create preliminary business case
+5	Studies & Surveys	Environmental and social surveys/studies required by regulators or otherwise necessary for the project.
+5	Permit Acquisition Activities 	Activities necessary to obtain permits from relevant authorities 
+5	Lease Acquisition Activities	Activities necessary to obtain commercial or research lease to operate the project from relevant authorities
+5	Public Outreach	Stakeholder education, marketing, and other efforts to facilitate public acceptance of a project
+4	Professional Advisory Services	Legal support, external consulants, accounting, etc, during development
+4	Engineering	Engineering studies to specify the design of the project (e.g., technology, layout) and understand economics and risks associated with the design
+5	Pre-FEED	Preliminary engineering design studies to develop general design of project, identify a short list of technologies for further evaluation, and identify fatal flaws 
+5	FEED	Engineering activities to develop final design specification, address areas of risk/uncertainty, determine technical & economic feasibility, and develop  necessary specifications to begin procurement process
+5	Engineering Certification	Review by 3rd party, ind. verification agent to assess feasibility of design basis, resulting in Certification Report
+4	Site Characterization	Equipment, material and labor costs required for collecting/analysis of wind resource, ocean conditions, and geological data at project site. Defines parameters for engineering assessments as data becomes available
+5	Met Station	meteorological tower including substructure (fixed or floating), instrumentation (meteorological and oceanographic), and data acquisition system
+5	Met Station Installation 	Vessels, labor, and equipment required to install met station, instrumentation and data acquisition system
+5	Wind Resource Analysis 	Collection, cleaning, analysis of data to develop wind resource profile and power production estimates for a selection of turbine types at project site. Might include array layout optimization surveys
+5	Ocean Monitoring	Equipment (benthic node, buoys) and installation costs for characterization of ocean conditions (e.g., currents)
+5	Geotechnical & Geophysical Surveys	Vessels, labor, and equipment required to establish bathymetry, sea bed features, water depth, stratigraphy, and identify hazards on seafloor. Performed for project site and potential cable routes to interconnection
+4	Interconnection & Power Marketing	Activities to gain access to the transmission grid and negotiate contracts to sell or otherwise market  power 
+5	Interconnection Studies & Fees	Activities required to obtain a Large Generator Interconnection Agreement from FERC, prepared in coordination with transmission system operator. Studies cover technical considerations of interconnecting project with grid, while maintaining system balance and within grid operating limits
+5	Transmission rights of way	Costs of obtaining or expanding transmission rights of way for any onshore electric infrastructure (e.g., overhead transmission lines), includes any costs to permit onshore transmission
+5	Power Marketing 	Efforts to develop power marketing strategy, forecast pricing, and negotiate Power Purchase Agreements
+4	Project Management during Development	Project Management from the start of the Development Phase through Financial Close
+5	Procurement	Preparation of tenders for each work package, evaluation of bids, negotiations with suppliers
+5	Salaries	Salaries for management and support staff on payroll of developer, some overlap with categories above is expected, depending on amount of work that is completed internally vs. contracted
+5	Sales, General, & Administrative	Overhead for the project company including administrative salaries and benefits, rent, utilities, depreciation, insurance, etc.
+5	Profit (if private developer)	Any margin earned by the developer upon sale of the project at financial close, does not include the cost to a new owner of any stake that a developer might retain in the  project
+4	Financial Closing Costs 	Efforts to arrange and secure equity and/or non-recourse debt facilities at the project level
+5	Due Diligence 	Activities performed by potential investors to investigate technical and economic aspects of the project and estimate value prior to executing a financial commitment. Typically conducted by 3rd party technical consultant hired by investor
+5	Closing Costs	Administrative costs incurred by investors (debt and equity) during the evaluation of the investment
+5	Legal Support	Developer's legal support to during negotiations to arrange financing
+3	Construction Management	Construction Management refers to management activities from Financial Close through COD
+4	Project Management during Construction	Project Management from Financial Close through  COD
+5	Salaries	Salaries for management and support staff on payroll of project owner and/or construction manager
+5	Sales, General, & Administrative	Overhead for the project company  and/or construction manager including administrative salaries and benefits, rent, utilities, depreciation, insurance, etc
+5	Profit 	Any margin earned by an independent construction management firm
+4	Project Certification	Review by a 3rd party, independent verification agent to assure that project is in compliance with design basis as well as technical standards and regulatory requirements, results in Project Certificate
+4	Health, Safety, & Environmental Monitoring	Coordination and monitoring to ensure compliance with HSE requirements during construction
+5	Health and Safety Monitoring	Coordination and monitoring to ensure compliance with health and safety requirements during construction
+5	Environmental Monitoring	Coordination and monitoring to ensure compliance with environmental requirement during construction
+3	Port & Staging	Activities and physical aspects of a staging port; elements needed to support the delivery, storage, handling, and deployment of offshore wind farm components
+4	Facilities	Port facilities or space leased to support the installation of the project
+5	Laydown Area	Leased space at staging port to store turbine components and foundations
+5	Assembly Areas	Leased space at staging port with high load bearing capacity to perform onshore assembly activities
+5	Fabrication Facilities	Workshops to support fabrication, construction or assembly of components
+4	Cranage	Cranage fees to use and operate crawler cranes, tower cranes, self-propelled modular transporters (SMPTs) used for land-based assembly of components and load out onto installation vessels
+4	Port Improvements	Any improvement to existing port infrastructure paid for by project owner (e.g., quayside reinforcement)
+4	Port Fees 	Fees for vessel access, docking and loading/unloading
+5	Entrance/Exit Fees	Charges levied upon entry of vessels into the port, generally calculated on standard formula basis upon Gross Registered Ton (GRT)
+5	Quayside Docking Fees	Charges levied for the use of a berth either occupied by a vessel or by pre-assembly activities
+5	Wharfage Fees	Charges for loading or unloading cargo from vessels, generally calculated by tonnage and equipment requirements for loading/unloading the cargo
+3	Substructure & Foundation	All elements of offshore wind turbine support structure below point of connection with tower 
+4	Foundation	Main structural interface that transfers loads into seabed 
+5	Piles	Steel pipes driven into seabed to provide support and transfer loads acting on structure into seabed
+5	Anchors	Anchors are installed below mudline and transfer loads from floating platforms into the seabed
+5	Mooring Lines	Chain, wire, or synthetic fiber ropes to connect floating platforms with anchors on the seabed
+5	Connecting Hardware	Connectors required to attach the mooring lines/tendons to anchors and to the platform 
+5	Messenger lines & buoys	Ancillary equipment used during the installation of the mooring system
+4	Substructure	Main structure that connects the foundation to the tower
+5	Primary Structure	Structural steel or concrete (e.g., jacket, tripod, floating platform, gravity base)
+5	Transition Piece 	Main structural interface between the primary structure and point of connection with the tower
+5	Fasteners	Hardware to secure connections between substructure & foundation elements 
+5	Grout, Grout Lines, & Seals 	Grout and ancillary equipment to secure connections between substructure & foundation elements 
+5	Marine Coatings	Anti-corrosion marine coatings applied to substructure elements
+4	Outfitting Steel	Additional non-structural elements attached to substructure elements
+5	Vessel Landing 	Provides interface between maintenance vessels and substructure to enable safe personnel access
+5	Deck	Provides access to the inside of the turbine and a work platform for maintenance
+5	J-tube	Routes array cable from trench to point of connection with turbine, protects cable from dynamic loads
+5	Ladders	Provides access from the vessel landing to the deck
+5	Railings	Encloses the deck to provide a safe working environment for personnel
+5	Marine Coatings	Anti-corrosion marine coatings applied to any outfitting steel elements
+4	Marine Systems 	Ancillary systems for marine operations
+5	On-board Crane	Davit crane installed on deck to lift small components, used for maintenance
+5	Personnel Access System	Equipment installed on vessel landing, ladders, and deck to facilitate safe access to turbine
+5	Ballast System	Ballast to control draft/stability of floating systems, ballast can be fixed or variable (active or passive)
+5	Condition Monitoring 	Systems to monitor and control substructure systems (e.g., variable ballast)
+4	Scour protection	Rock fill or concrete mattresses to protect substructures from scouring (caused by currents)
+4	Substructure & Foundation IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the Substructure & Foundation before delivery to customer  (does not include commissioning activities)
+4	Pricing Effects 	 Financial costs for substructure supply contract, including warranty cost, SG&A expenses, and profit margin  
+4	Transportation	Cost to transport substructure and foundation elements from manufacturer to staging port
+4	Substructure & Foundation Commissioning	Process of assuring that all substructure & foundation systems and components are operational through a predefined series of tests and checks.
+3	Array Cable System	Collects power generated by the turbines and transports to the offshore substation
+4	Array Cables 	Cable to connect turbines with offshore substation,  includes IATC
+4	Protection Array Cable	Equipment and materials used to protect cable from damage (strikes, overbending, etc.)
+5	Scour Protection  	Rock fill, sand bags, or concrete mattresses to protect from scouring, used where burial is not possible
+5	Seabed Protection Mats	Concrete, sand bags, polyurethane mats to route cables over existing electric/telecommunications cables
+5	Ducting System	Protective sheath that can be fitted around cables where burial is not an option
+5	J-tube Seals	Used to seal the ends of the J-Tube and keep sea water out, can be active or passive
+5	Bend Restrictors 	Prevents the overbending of static cables during installation and operations
+5	Bend Stiffeners	Limit bending stresses and maintain acceptable curvature for dynamic cables at hang off point and touch down
+4	Ancillary Equipment Array Cable	Other elements providing necessary functions to the array cable system
+5	Termination Kit	Necessary components to for connection of array cable to each turbine transformer
+5	Connectors	Equipment to connect individual sections of cable together, in the event of long cable runs or damage
+5	Buoyancy Modules	Used to manage buoyancy in some dynamic cable configurations and control load transfer
+5	Anchorage	Used to maintain the station of dynamic cable at touchdown point
+5	Messenger Lines & Buoys	Ancillary equipment used during the installation of static and dynamic cable systems
+4	Pricing Effects 	 Financial costs for array cable supply contract, including warranty cost, SG&A expenses, and profit margin  
+4	Transportation	Costs to transport array cable elements from manufacturer to staging port
+4	Array Cable System Commissioning	 Process of assuring that all array cable systems and components are operational through a predefined series of tests and checks.
+3	Export Cable System	Transports power from offshore substation to point of connection with onshore electric infrastructure (landfall point)
+4	Export Cables 	Cable to connect offshore substation with onshore electric infrastructure, includes IATC
+4	Protection Export Cable	Equipment and materials used to protect cable from damage (strikes, overbending, etc.)
+5	Scour Protection  	Rock fill, sand bags, or concrete mattresses to protect from scouring, used where burial is not possible
+5	Seabed Protection Mats	Concrete, sand bags, polyurethane mats to route cables over existing electric/telecommunications cables
+5	Ducting System	Protective sheath that can be fitted around cables where burial is not an option
+5	J-tube Seals	Used to seal the ends of the J-Tube and keep sea water out, can be active or passive
+5	Bend Restrictors 	Prevents the overbending of static cables during installation and operations
+5	Bend Stiffeners	Limit bending stresses and maintain acceptable curvature for dynamic cables at hang off point and touch down
+4	Ancillary Equipment Export Cable	Other elements providing necessary functions to the export cable system 
+5	Termination Kit	Necessary components for connection of cable to substation and to onshore electric infrastructure
+5	Connectors	Equipment to connect individual sections of cable together, in the event of long cable runs or damage
+5	Buoyancy Modules	Used to manage buoyancy in some dynamic cable configurations and control load transfer
+5	Anchorage	Used to maintain the station of dynamic cable at touchdown point
+5	Messenger Lines & Buoys	Ancillary equipment used during the installation of static and dynamic cable systems
+4	Pricing Effects 	 Financial costs for export cable supply contract, including warranty cost, G&A expenses, and profit margin  
+4	Transportation	Costs to transport export cable elements from manufacturer to staging port
+4	Export Cable System Commissioning	Process of assuring that all export cable systems and components are operational through a predefined series of tests and checks.
+3	Offshore Substation 	Electric conversion equipment required to step-up or convert power for export to the onshore grid and support structure,  also onboard work platforms, accommodation, equipment storage, helicopter access, etc.
+4	Topside 	Structure that provides support and climate controlled housing for electrical conversion equipment, also can provide work platforms, accommodation, equipment storage, helicopter access, etc.
+5	Structure	Material, equipment, and labor costs of fabricating structural steel or concrete structure
+5	Helicopter Deck	Onboard helicopter landing platform
+5	Accommodations	Refuge, temporary, or permanent accommodations for project personnel
+5	Outfitting Steel	Additional non-structural elements attached to the primary structure
+5	Topside Marine Systems 	Ancillary systems required for marine operations
+5	Substation Topside  & Foundation IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the Substation Topside before  delivery to customer  (does not include commissioning activities)
+5	Transportation	Costs to transport substation topside from manufacturer to staging port
+4	Substructure & Foundation Offshore substation	All elements of the offshore substation below the point of connection with the topside
+5	Foundation	Main structural interface that transfers the loads into the seabed
+5	Substructure 	Main structure that connects the foundation to the substation topside
+5	Substructure Marine Systems	Ancillary systems for marine operations, major element is the ballast system for floating offshore substations
+5	Scour Protection	Rock fill or concrete mattresses to protect substructures from scouring  at point of connection to seafloor
+5	Substation Substructure & Foundation IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the Substation Substructure & Foundation before delivery to customer (does not include commissioning activities)
+4	Electrical Conversion Equip.	Equipment to step up power from array cable voltage to the export voltage and/or to convert power to DC 
+5	AC Transformers	Power convertors that step up generated power from array cable voltage to export voltage
+5	High Voltage Switchgear 	Equipment used to control, protect and disconnect the high voltage connection,
+5	Medium Voltage Switchgear 	Equipment used to control, protect and disconnect the medium voltage connection
+5	Shunt Reactors	Onboard reactive compensation equipment
+5	DC Convertor	Equipment to convert power from HVAC to HVDC for export to shore
+5	Filtering System	Filters to address harmonics generated by HVDC convertors
+5	Substation Electrical Conversion Equip IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the Substation Topside before  delivery to customer  (does not include commissioning activities)
+4	Ancillary Systems	Other elements providing necessary functions to offshore substation during operations
+5	Diesel Generator Back Up	Generators to provide power to substation if grid connection is lost
+5	Fire Protection System	Fire alarms and fire response equipment
+5	Water Tanks	Fresh water tanks and pumping equip.
+5	Fuel Tanks	Fuel tanks and pumping equip. for generator and possibly emergency fueling of service/crew transfer vessels
+5	Control & Communication System 	Connects the substation with an onshore operations center, provides project operator with information about the status of substation systems and allows remote control of some functions
+5	Safety and Security Systems	Systems including access control, to safeguard personnel from hazards arising from the installation, maintenance, or operation of substation equipment
+4	Pricing Effects 	 Financial costs for substation supply contract, including warranty cost, SG&A expenses, and profit margin  
+4	Substation Commissioning	Process of assuring that all offshore substation systems and components are operational through a predefined series of tests and checks.
+3	Onshore Electric Infrastructure 	Any onshore transmission or conversion equipment required to connect project to onshore grid
+4	Underground Cable System	Any underground cables required for the connection of export cables to the onshore substation
+5	Underground Cables 	Connect export cables to the onshore substation directly or via overhead lines
+4	Self-Supporting Towers with Insulators	Structures to support any overhead lines required for the connection of export cables to the onshore substation
+5	Foundations	Support tower structures, typically reinforced concrete
+5	Transmission Towers	Structures to support overhead transmission lines
+5	Insulators	insulating supports used to attach overhead transmission lines to the towers
+4	Overhead Lines	Lines that transmit power and enable communications with the offshore wind project
+5	Conductors	Conductors that transmit power between export cable and onshore substation  (three phase system)
+5	Communications	Fiber optic wire routed to the control center, transmits information from DAS, CMS, and allows land-based control of project systems
+5	Shield Wire	Grounded conductor to protect phase conductors from surges (lightning)
+4	Onshore Substations	Facility to house electric conversion equipment to transform or convert power from the export voltage to the onshore grid voltage
+5	Buildings/Facilities	Structures to house electric conversion equipment, climate controlled
+5	Civil Infrastructure 	Improvements to construction site (e.g., roads) necessary for substation construction and operation
+5	Electric Conversion Equipment 	Equipment to transform generated power from export cable voltage to interconnection voltage and/or convert from DC to AC (e.g.,  AC transformers, switchgears, shunt reactors, DC convertors)
+5	Ancillary Systems	Other elements providing necessary functions to substation during operations (e.g.,  metering equipment, Safety and Security Systems, fire protection, gas detection )
+5	Onshore Substation IATC	Activities performed by manufacturer to integrate, assemble, test, and verify the Substation Substructure & Foundation before delivery to customer (does not include commissioning activities)
+5	Transportation	Costs to transport onshore substation components from manufacturing facilities to construction site
+4	Pricing Effects 	 Financial costs for onshore electric supply contract, including warranty cost, SG&A expenses, and profit margin  
+4	Onshore Electric Infra. Commissioning	  Process of assuring that all onshore substation systems and components are operational through a predefined series of tests and checks.
+3	Other Infrastructure 	Other capital investments made by the project company prior to COD
+4	Offshore Accommodations Platform	Permanent platform at the project site to house project personnel during operations
+4	Dedicated O&M Vessel	New build vessels owned by the project company that will be used exclusively to support operations at project
+4	Onshore O&M Facilities 	Facilities on land, owned by the project company, to support the operation of the project
+4	O&M Equipment Purchases	Other purchases necessary for the operation of the wind project after COD. Examples include: safety equipment (e.g., harnesses, floatation devices), equipment to store replacement parts (e.g., climate control for spare electric cables), vehicles to support operations (e.g., fork trucks)
+3	Assembly & Installation	Assembly and installation activities conducted at the staging port and at the project site. Assume that financial costs related to warranties, contractor insurance, SG&A, profit margin, etc, are loaded in day rates for vessels, labor, and equipment
+4	Foundations & Substructures Assembly & Installation	Costs to complete installation of foundations and substructures
+5	Foundation	Vessel, labor and equipment costs to complete foundation installation procedures
+5	Substructure 	Vessel, labor and equipment costs to complete substructure installation procedures
+5	Scour Protection	Vessel, labor and equipment costs to complete scour protection installation procedures
+4	Turbines	Vessel, labor and equipment costs to complete turbine installation procedures for the entire project
+4	Array Cables	Installation of subsea array cable system
+5	Laying/Trenching 	Vessel, labor and equipment costs to lay and bury array cables
+5	Protection	Vessel, labor and equipment costs to protect array cables
+5	Terminations	Vessel, labor and equipment costs to pull array cables through J-Tubes and connect to transformers
+4	Export Cables	installation of subsea export cable system
+5	Laying/Trenching 	Vessel, labor and equipment costs to lay and bury export cables
+5	Protection	Vessel, labor and equipment costs to protect export cables
+5	Terminations	Vessel, labor and equipment costs to pull export cables through J-Tubes and connect to transformers
+5	Landfall Operations	Vessel, labor and equipment costs to transition export cable from subsea trench to onshore jointing pit 
+4	Offshore Substation Assembly & Installation	Costs of installing offshore substations at the project site
+5	Substructure	Vessel, labor and equipment costs to install substation substructure
+5	Topside	Vessel, labor and equipment costs to install substation topside
+4	Offshore Accommodations Platform	Costs of installing offshore accommodations platforms at the project site
+5	Substructure	Vessel, labor and equipment costs to install offshore accommodations platform substructure
+5	Topside	Vessel, labor and equipment costs to install offshore accommodations platform topside
+4	Onshore Electric Infrastructure Assembly & Installation	Onshore Electric Infrastructure: costs of installing onshore electric infrastructure
+5	Underground Cable System	Labor and equipment costs to install underground cables onshore
+5	Overhead Transmission Lines	Labor equipment costs to install overhead transmission lines
+5	Onshore Substation	labor and equipment costs to install onshore substation
+2	Soft Costs	Financial expenditures for which the project owner is responsible prior to COD, related to either payments for financial products, carrying charges on loans, or setting up financial instruments 
+3	Insurance During Construction (IDC)	Insurance policies held by owner during construction period, can include construction all risk, marine cargo, commercial general liability, workers compensation, environmental site liability, pollution liability, etc. Does not include insurance held by contractors
+3	Surety Bond (Decommissioning)	Financial vehicle to cover the anticipated costs of decommissioning the project at end of operational life 
+3	Reserve Accounts (MRA, DSRA)	Payments into reserve accounts set up to cover major maintenance expenditures (MRA) and debt service (DSRA), often required by debt finance providers
+3	Project Contingency Budget	Liquid financial instrument set up to respond to ‘known unknown’ costs that arise during construction, does not include contingences set by manufactures and contractors as part of supply contract pricing
+3	Construction Financing Costs	Carrying charges of expenditures on equipment and services incurred before COD
+1	Operational Expenditures (OpEx)	Expenditures required to operate the project and maintain availability, generally annualized
+2	Maintenance	Vessel, labor, and equipment costs of operations for the project
+3	Long Term Service Agreement	Annualized cost of a contract, generally between the owner and turbine OEM or Third Party, to maintain the offshore wind project at a guaranteed level of availability for a defined period, will likely replace scheduled and unscheduled maintenance categories below for duration of contract
+3	Wind turbine scheduled maintenance 	Activities to ensure that Turbine systems are operating correctly and to minimize unscheduled breakdowns/ downtime, includes cost of vessels, labor, equipment, spare parts and consumables. Also known as preventative maintenance
+3	Wind turbine unscheduled maintenance	Activities to respond to random failures of turbine equipment including costs of vessels, labor, equipment, replacement parts, and consumables
+4	Drivetrain Module	Unscheduled maintenance related to Drivetrain Modules
+4	Electric Module	Unscheduled maintenance related to Electric Modules
+4	Rotor Module	Unscheduled maintenance related to Rotor Modules
+4	Nacelle Module 	Unscheduled maintenance related to Nacelle Modules
+4	Tower Module	Unscheduled maintenance related to Tower Modules
+3	BOS scheduled maintenance	Activities to ensure that BOS systems are operating correctly and to minimize unscheduled breakdowns/ downtime, includes cost of vessels, labor, equipment, spare parts and consumables.  Also known as preventative maintenance
+3	BOS unscheduled maintenance 	Activities to respond to random failures of BOS equipment including costs of vessels, labor, equipment, replacement parts, and consumables
+4	Substructure & Foundation	Unscheduled maintenance related to Substructure & Foundations
+4	Array Cable System	Unscheduled maintenance related to Array Cable System
+4	Export Cable System 	Unscheduled maintenance related to Export Cable System
+4	Offshore Substation 	Unscheduled maintenance related to Offshore Substation
+4	Onshore Electric Infra. 	Unscheduled maintenance related to Onshore Electric Infrastructure
+4	Other Infrastructure 	Unscheduled maintenance related to Other Infrastructure
+2	Operations	Operations: non-equipment costs of operations for the project
+3	Annual Lease Payments	Payments to regulatory body for permission to operate at project site, terms defined within lease
+3	Project Management during Operations	Project Management from COD to up until decommissioning  
+4	Salaries	Salaries for management and support staff on payroll of project owner and/or operations manager
+4	Sales, General, & Administrative	Overhead for the project company  and/or operations manager including administrative salaries and benefits, rent, utilities, depreciation, insurance, etc.
+4	Profit (if private operator)	Any margin earned by an independent operations management company
+3	Transmission Charges	Any payments to Transmissions Systems Operators or Transmission Asset Owners for rights to transport generated power.
+3	Operating Insurance	Insurance policies held by project company or operations manager during operational period
+3	Operating Equipment & Facilities Lease	Costs of leasing equipment and facilities to support operations. Could include expenditures for warehouse, fork trucks, etc after COD.
+3	Professional Advisory Services	Legal support, external consulants, accounting, etc, during construction
+3	Health, Safety and Environmental Monitoring	Coordination and monitoring to ensure compliance with HSE requirements during construction
+4	Health, Safety Monitoring	Coordination and monitoring to ensure compliance with health and safety requirements during operations
+4	Environmental Monitoring	Coordination and monitoring to ensure compliance with environmental requirement during operations
